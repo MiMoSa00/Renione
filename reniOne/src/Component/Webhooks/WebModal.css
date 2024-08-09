@@ -1,0 +1,40 @@
+.webContent{
+    background-color: #fff;
+    width: 25%;
+    height: 32vh;
+    padding: 12px;
+    margin-top: 16%;
+}
+
+.Close_btn{
+    border: none;
+    display: flex;
+   margin-left: 96%;
+}
+.hookBody h2{
+font-size: 18px;
+font-weight: 600;
+margin-left: 2%;
+}
+.hookBody label{
+margin-left: 2%;
+font-weight: 400;
+font-size: 14px;
+}
+  input[type="text"]{
+    display: block;
+    width: 96%;
+    margin-left: 1%;
+ }
+.hooks{
+    width: 50%;
+    border-radius: .5rem;
+    background-color: #001E88;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    height: 5vh;
+    margin-left: 1%;
+    margin-top: 3%;
+}

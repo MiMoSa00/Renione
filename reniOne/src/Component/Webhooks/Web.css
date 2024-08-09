@@ -1,0 +1,58 @@
+.webContainer {
+    max-width: 100%;
+    gap: 32px;
+    margin: 0;
+
+}
+
+.webtext {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.webSection {
+    background-color: #FFFFFF;
+    width: 91%;
+    height: 21vh;
+    margin-top: 120px;
+    /* position: absolute; */
+    margin-left: 8%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.hookSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1%;
+    line-height: 2.3;
+    gap: 24px;
+}
+
+.web-Last {
+    background-color: #FFFFFF;
+    width: 91%;
+    height: auto;
+    margin-bottom: 100px;
+    margin-top: 4%;
+    /* position: absolute; */
+    margin-left: 8%;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 20px;
+}
+
+.mid-Container {
+    background-color: #FFFFFF;
+    width: 91%;
+    height: 235px;
+    margin-bottom: 4%;
+    margin-top: -6%;
+    /* position: absolute; */
+    margin-left: 8%;
+    border-radius: 8px;
+    padding: 20px;
+}

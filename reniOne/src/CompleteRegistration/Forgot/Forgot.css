@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.boxer{
+    width: 468px;
+
+       border: 2px solid black;
+}
+
+.btner{
+ 
+    width: 468px;
+}
+
+/* .next {
+    margin-top: 7rem;
+    border: 2px solid black;
+} */
+
+.nextt{
+    width: 490px;
+    padding: .6rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    background: #001E88;
+    color: #FEFCFC;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: 1px solid #001E88;
+}

@@ -1,0 +1,145 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.topbarSection {
+    width: 82%;
+    padding: 10px 100px;
+    /* border: 2px solid red; */
+    position: fixed;
+
+    background: #FFFFFF;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    top: 0;
+}
+
+ .iconContainer {
+    display: flex;
+    justify-content: center;
+}
+
+ .top-icon {
+    color: #757E9F;
+    font-size: 25px;
+    /* margin-top: 45px;
+    margin-right: 5rem; */
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    /* border: 2px solid black; */
+    /* width: 35%; */
+    gap: 30px;
+    /* margin-right: 24rem;
+    margin-top: -1.2rem; */
+}
+
+.circle-icon {
+    width: 42px;
+    height: 44px;
+    border-radius: 50%;
+    /* margin-top: -16px; */
+    margin-left: .9rem;  
+    color: #D9D9D9;
+
+    background-color: #D9D9D9;
+}
+
+.fire{
+    margin-left: -19px;
+}
+
+.textContainer{
+    display: flex;
+  gap: 30px;
+    /* margin-left: 5rem;
+    margin-right: -21rem; */
+  
+}
+
+/* .gridi{
+        margin-left: .9rem;
+   margin-right: -2rem;
+} */
+.second-icon{
+    color: #757E9F;
+   font-size: 33px;
+   /* margin-left: 1rem; */
+   /* margin-top: -3rem; */
+  
+}
+.top3{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    /* margin-right: -900px; */
+    /* margin-top: -12px; */
+}
+
+.top-graph {
+   /* text-align: center; */
+   /* margin-left: -7rem; */
+    /* margin-right: 4rem; */
+   /* border: 2px solid black; */
+   /* margin-top: 20px; */
+   color: #757E9F;
+   
+}
+
+.topArrow{
+    /* margin-left: 29rem; */
+   margin-top: -4px;
+   font-size: 22px;
+   color: #757E9F;
+   font-weight: 200;
+}
+
+.top-menu{
+   
+    border-radius: 8px;
+    background-color: #fff;
+    position: absolute;
+    width: 315px;
+    height: 136px;
+    margin-left: -20.5rem;
+    margin-top: 1rem;
+    z-index: 999;
+    box-shadow: 5px 4px 4px 2px #FFFFFF;
+}
+
+.top-item{
+   margin-left: 1rem;
+ text-align: center;
+    list-style: none;
+   align-items: center;
+    font-size: 18px;
+ display: flex;
+ font-weight: 500;
+ 
+}
+
+.circle_icon{
+    width: 42px;
+    height: 44px;
+    border-radius: 50%;
+    margin-top: .6rem;
+    margin-right: 15px;
+   
+    color: #D9D9D9;
+
+    background-color: #D9D9D9;
+}
+.lilText{
+    margin-left: 4.6rem;
+    margin-top: -.9rem;
+    color: #757E9F;
+}
+
