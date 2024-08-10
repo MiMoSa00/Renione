@@ -75,8 +75,6 @@ const Sidebar = () => {
           </Link>
           </li> 
         </ul>
-      
-   
         <div className="dropdown">
 
 <div className="newdrop">
