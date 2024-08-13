@@ -68,7 +68,8 @@ color: #848995;
 }
 .spans{
     text-align: right;
-    margin-left: 30rem;
+    text-decoration: none;
+    margin-left: 25rem;
     font-size: 16px;
     font-weight: 500;
 }
