@@ -56,10 +56,10 @@ body {
 .dropdown-item:hover{
     background-color: #00000069;
     /* width: 1%; */
-    margin-right: 8%;
+    margin-right: 5%;
     height: 10vh;
     /* padding-right: 1rem; */
-    padding-left: .4rem;
+    padding-left: .3rem;
     border-radius: 8px
 
 }
@@ -120,7 +120,7 @@ body {
     list-style: none;
     text-decoration: none;
     color: #F1F6FD;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .logdiv{
