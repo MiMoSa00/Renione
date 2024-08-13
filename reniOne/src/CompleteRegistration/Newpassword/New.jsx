@@ -64,8 +64,8 @@ const New = () => {
                                     </label>
                                     <input
                                         type={showPassword ? 'text' : 'password'}
-                                        value={password}
-                                        onChange={(e) => setPassword(e.target.value)}
+      value={password}
+                     onChange={(e) => setPassword(e.target.value)}
                                         placeholder='***********' />
                                     <button
                                         type="button"
