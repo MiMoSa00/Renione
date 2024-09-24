@@ -65,15 +65,18 @@ body {
 
 .profileContain2 p {
     margin-left: 5%;
+    white-space: nowrap;
 }
 
 .profileContain2 button {
     margin-left: -3rem;
     color: #001E88;
     width: 12%;
-    height: 20%;
-    padding: 9px;
-    margin-top: 2px;
+    height: 40%;
+    padding-bottom: 29px;
+    padding-top: 12px;
+white-space: nowrap;
+    margin-top: -2px;
     align-items: center;
     font-size: 16px;
     border-radius: .5rem;
@@ -88,6 +91,11 @@ body {
     margin-left: 3%;
     width: 70%;
 
+}
+.newlypaid{
+    display: flex;
+    gap: 40px;
+    width: 90%;
 }
 
 .profile-P {
@@ -226,25 +234,40 @@ input[type="text"] {
 
     background-color: #fff;
 }
-.KYC h2{
+
+.KYC h2 {
     font-size: 16px;
 }
+
 .kyc {
     display: flex;
     align-items: center;
 }
 
+.refresh{
+    margin-right: 15.2rem;
+    display: flex;
+    align-items: center;
+}
 .kyc select {
-    width: 40%;
-    margin-right: 4.5%;
+    width: 69%;
+    margin-left: 8rem;
 }
 
 .kyc-cont {
     display: flex;
     align-items: center;
 }
+.kyc-contain {
+    display: flex;
+    align-items: center;
+}
 
 .kyc-cont input {
+    width: 40%;
+    margin-right: 47%;
+}
+.kyc-contain input {
     width: 40%;
     margin-right: 47%;
 }
@@ -291,11 +314,17 @@ input[type="text"] {
     /* box-sizing: border-box;  */
 }
 
+.selecter{
+    width: 100%;
+}
+
 
 
 .eye-icon {
     position: absolute;
     right: 50%;
+    font-size: 26px;
+    margin-top: .5rem;
     /* Adjust as needed */
     cursor: pointer;
 }
@@ -322,7 +351,8 @@ input[type="text"] {
     cursor: pointer;
     border-radius: 5px;
     margin-right: 19%;
-    /* margin-left: 5%; */
+    white-space: nowrap;
+    margin-left: 1rem;
 }
 
 .image-icon {
@@ -349,7 +379,7 @@ input[type="text"] {
     margin-top: 3%;
 }
 
-.kyb-section h2{
+.kyb-section h2 {
     margin-bottom: 15px;
     font-size: 18px;
 }
@@ -374,7 +404,7 @@ input[type="text"] {
 }
 
 .kyb-input {
-    width: 40%;
+    width: 50%;
     margin-right: 1%;
     border: 1px solid #E0E0E0;
     border-radius: 8px;
@@ -392,8 +422,9 @@ input[type="text"] {
 }
 
 .kyb-Input {
-    width: 40%;
+    width: 50%;
     margin-right: 1%;
+    margin-left: .7rem;
     border: 1px solid #E0E0E0;
     padding: 10px;
     border-radius: 8px;
@@ -404,30 +435,37 @@ input[type="text"] {
     /* display: flesx; */
     margin-top: 1%;
     align-items: center;
-  margin-right: 35%;
+    margin-right: 35%;
     font-size: 16px;
     color: #001E88;
-    
+
 }
-.P-kyc{
+.latest{
+    width: 100%;
+    display: flex;
+    margin-left: 5.5rem;
+}
+.P-kyc {
     margin-right: 33%;
     margin-top: 1%;
     color: #001E88;
     font-size: 16px;
     align-items: center;
 }
-.kybStatus{
+
+.kybStatus {
     display: flex;
     margin-right: 60%;
     align-items: center;
     justify-content: space-evenly;
 }
-.kyB{
+
+.kyB {
     display: flex;
     align-items: center;
 }
 
-.danger{
+.danger {
     /* width: 83%; */
     margin-top: 4%;
     margin-left: 10%;
@@ -437,36 +475,40 @@ input[type="text"] {
     background-color: #fff;
     /* padding-bottom: 2rem; */
 }
-.danger h3{
+
+.danger h3 {
     font-size: 16px;
 }
 
-.dangerbox{
+.dangerbox {
     display: flex;
     align-items: center;
     /* width: 30%; */
 }
 
-.danger-icon{
+.danger-icon {
     font-size: 23px;
     color: #F04438;
     margin-right: 1%;
 }
-.dangerbox small{
-     color: #F04438;
-     /* font-size: 15px; */
+
+.dangerbox small {
+    color: #F04438;
+    /* font-size: 15px; */
 }
-.dang-container{
+
+.dang-container {
     border: 2px solid #F04438;
     padding: 16px;
     margin-top: 2%;
     border-radius: 10px;
 }
-.p-danger{
+
+.p-danger {
     width: 82%;
 }
 
-.danger-btn{
+.danger-btn {
     border: 2px solid #F04438;
     padding: 8px;
     background-color: transparent;
@@ -475,3 +517,443 @@ input[type="text"] {
     border-radius: 10px;
     font-size: 14px;
 }
+
+@media screen and (max-width: 600px) {
+    .main-profile {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .profileSection {
+        width: 95%;
+        height: 100%;
+         margin-top: 5rem;
+        gap: 40px;
+        margin-left: -1rem;
+    }
+
+    .profileContainer{
+        margin-top: 1.5rem;
+    }
+    .profileContainer p {
+        white-space: nowrap;
+    }
+
+    .profileContainer button {
+        padding-left: 1rem;
+        padding-right: 6rem;
+        padding-bottom: .5rem;
+        font-size: 12px;
+        width: 20%;
+        white-space: nowrap;
+        margin-top: -.5rem;
+        margin-left: 2rem;
+    }
+    .profileContain2 button {
+        padding-left: .5rem;
+        padding-right: 6rem;
+        padding-bottom: 1.5rem;
+        padding-top: .5rem;
+        font-size: 14px;
+        width: 20%;
+        white-space: nowrap;
+        margin-top: -2rem;
+        margin-left: 2rem;
+    }
+        .newlypaid{
+            display: grid;
+            /* flex-direction: column; */
+            /* align-items: flex-start; */
+            margin-left: -11rem;
+            margin-top: 1.5rem;
+        }
+
+ 
+        .profileContain2 {
+         margin-top: 1rem;
+        }
+       
+        .profile-P {
+          display: block;
+          margin-top: 10px; /* Add some space between the "Paid" and "Your next bill" text */
+        }
+      
+        button {
+          display: block;
+          margin-top: 10px; /* Space between "Your next bill" text and the button */
+        }
+    
+        .main-profile .another-section{
+            width: 95%;
+            height: 100%;
+             margin-top: 1rem;
+            gap: 40px;
+            margin-left: -1rem;
+        }
+
+        .another{
+            width: 100%;
+        }
+        .another input{
+            width: 90%;
+            padding-right: 14rem;
+            padding-left: 8rem;
+            padding-bottom: .6rem;
+        }
+        .another-cont{
+            width: 100%;
+            margin-left: .4rem;
+        }
+        .another-cont input{
+            width: 90%;
+            padding-right: 14rem;
+            padding-left: 8rem;
+            margin-left: 2.1rem;
+            padding-bottom: .6rem;
+        }
+        .Reset{
+            margin-left: .3rem;
+        }
+        .btn_reset{
+            width: 70%;
+            white-space: nowrap;
+            margin-left: 1.2rem;
+            
+        }
+
+        .main-profile .thirdSection{
+            width: 95%;
+            height: 100%;
+             margin-top: 1rem;
+            gap: 40px;
+            margin-left: -1rem;
+        }
+        .thirdSection .another input{
+            margin-left: 1.5rem;
+            width: 40%;
+        }
+        .another{
+            white-space: nowrap;
+        }
+        .another-cont{
+            white-space: nowrap;
+            margin-left: -.1rem;
+        }
+        .thirdSection .another-cont input{
+            margin-left: 1.6rem;
+        }
+        .radio{
+            white-space: nowrap;
+            gap: 60px;
+        }
+        .newpro{
+            border: 2px solid #757E9F;
+            width: 2%;
+            padding: 7px;
+            display: flex;
+            background-color: black;
+            border-radius: 100%;
+            /* font-size: 34px; */
+        }
+        .option{
+            margin-left: -2rem;
+        }
+        .newpros{
+            border: 2px solid #757E9F;
+            width: 12%;
+            border-radius: 100%;
+            padding: 8px;
+        }
+
+        .KYC{
+            width: 95%;
+            height: 100%;
+             margin-top: 1rem;
+            gap: 40px;
+            margin-left: -1rem;
+        }
+   .selecter select{
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    width: 100%;
+    /* margin-right: 3rem; */
+   }
+   .selecter{
+    margin-bottom: 1rem;
+   }
+
+   .refresh{
+    margin-top: 5rem;
+    margin-left: -10rem;
+    margin-right: 11.5rem;
+   }
+
+   .kyc-cont{
+    width: 100%;
+   }
+
+   .password-input-container input{
+    margin-left: 1rem;
+    /* padding-left: 3rem;
+    padding-right: 13rem; */
+    width: 70%;
+    margin-right: 0;
+   }
+   .eye-icon{
+    margin-right: -4rem;
+   }
+   .kyc-contain input{
+ margin-left: -1.1rem;
+ margin-right: 9.4rem;
+ width: 52.6%;
+ /* padding-right: 15.5rem; */
+
+   }
+   .kyc-cont::placeholder{
+margin-left: -24rem;
+   }
+   .kyC{
+    margin-left: 2rem;
+   }
+
+   .kyb-section{
+    width: 95%;
+    margin-left: -1rem;
+   }
+   .kyb-item{
+    width: 100%;
+    gap: 39px;
+   }
+   .kyb-label{
+    width: 90%;
+    white-space: nowrap;
+   }
+   .kyb_input{
+    width: 90%;
+    margin-right: 0;
+   }
+   .latest{
+    display: block;
+    width: 100%;
+   }
+   .kyb-input{
+    width: 131%;
+    margin-right: 0;
+    margin-left: -5rem;
+   }
+
+   .P-kyc{
+    margin-right: -9.5rem;
+    margin-left: 11rem;
+   }
+.kyb-Input{
+    margin-left: -4rem;
+    width: 121.5%;
+}
+
+.kyb-upload-text{
+    margin-right: -8.6rem;
+    margin-left: 12.4rem;
+}
+
+.kyB{
+    margin-left: 6.3rem;
+}
+.btn-kyc{
+    width: 55%;
+    margin-left: 1rem;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+}
+
+.danger{
+    width: 95%;
+    margin-left: -1rem;
+}
+}
+
+@media screen and (max-width: 480px) {
+    .main-profile{
+        width: 100%;
+    }
+
+    .profileSection{
+        width: 90%;
+        margin-left: -.5rem;
+    }
+    .profileContain2{
+        margin-left: .5rem;
+    }
+    .newlypaid{
+        margin-left: -10.6rem;
+    }
+   .main-profile .another-section{
+        width: 90%;
+        margin-left: -.5rem;
+    }
+    .another-container .another input{
+     margin-left: .5rem;
+     padding-right: 7rem;
+    }
+    .another-container .another-cont input{
+        padding-right: 7rem;
+        margin-left: 3rem;
+    }
+   .main-profile .thirdSection{
+        width: 90%;
+        margin-left: -.5rem;
+    }
+
+    .thirdSection .another-cont input{
+margin-left: .5rem;
+    }
+
+    .radio{
+        white-space: nowrap;
+        gap: 60px;
+    }
+    .newpro{
+        border: 2px solid #757E9F;
+        width: 2%;
+        padding: 7px;
+        display: flex;
+        background-color: black;
+        border-radius: 100%;
+        /* font-size: 34px; */
+    }
+    .option{
+        margin-left: -2rem;
+    }
+    .newpros{
+        border: 2px solid #757E9F;
+        width: 12%;
+        border-radius: 100%;
+        padding: 8px;
+    }
+
+    .KYC{
+        width: 90%;
+        margin-left: -.5rem;
+    }
+    .kyc{
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .selecter{
+        width: 100%;
+        /* border: 2px solid red; */
+    }
+   .kyc select {
+        width: 70%;
+        padding: 1rem;
+        /* border: 3px solid pink; */
+    }
+    .refresh{
+        margin-left: -17rem;
+        margin-right: 2rem;
+    }
+    .kyc-cont input{
+    width: 100%;
+    margin-left: 2.5rem;
+    }
+    .kyc-cont .eye-icon{
+        margin-right: -6.6rem;
+    }
+    .kyc-contain input{
+        width: 63%;
+        margin-right: 2.5rem;
+        margin-left: -2rem;
+    }
+    .kyb-section{
+        width: 90%;
+        margin-left: -.5rem;
+    }
+    .kyb_input{
+        width: 15rem;
+        margin-left: -1rem;
+    }
+    .kyb_input::placeholder{
+font-size: 13px;
+    }
+    .kyb-item{
+        width: 100%;
+        /* border: 2px solid black; */
+    }
+    .kyb-input{
+      width: 13rem;
+      margin-left: -6rem;
+    }
+    .kyb-input::placeholder{
+        font-size: 13px;
+    }
+    .radio{
+            white-space: nowrap;
+            gap: 60px;
+        }
+        .newpro{
+            border: 2px solid #757E9F;
+            width: 2%;
+            padding: 7px;
+            display: flex;
+            background-color: black;
+            border-radius: 100%;
+            /* font-size: 34px; */
+        }
+        .option{
+            margin-left: -2rem;
+        }
+        .newpros{
+            border: 2px solid #757E9F;
+            width: 12%;
+            border-radius: 100%;
+            padding: 8px;
+        }
+
+ 
+    .P-kyc{
+        margin-left: 1.9rem;
+    }
+    .kyb-Input{
+        width: 13rem;
+        margin-left: -5rem;
+    }
+    .kyb-upload-text{
+        margin-left: 3.9rem;
+    }
+    .kybStatus{
+        width: 90%;
+    }
+    .kyB{
+        margin-left: 3rem;
+    }
+
+    .warn-icon{
+        font-size: 34px;
+    }
+    .warn{
+        font-size: 13px;
+    }
+    .btn-kyc{
+        width: 13%;
+        height: 5%;
+        font-size: 13px;
+        margin-right: -3rem;
+        padding-right: 3.3rem;
+        padding-left: .9rem;
+    }
+    .danger{
+        width: 90%;
+        margin-left: -.5rem;
+    }
+    .p-danger{
+        width: 90%;
+    }
+
+    .danger-btn{
+        margin-left: 2.7rem;
+    }
+
+}
+

@@ -73,7 +73,7 @@ const Dashboard = () => {
             <h2>Business</h2>
             <button onClick={() => {
               setOpenModal(true)
-            }}>Create New Business <GoPlus className='dashIcon' /> </button>
+            }} className='create'>Create New Business <GoPlus className='dashIcon' /> </button>
          {openModal && <Modal closeModal={setOpenModal}/>}
           </div>
           <div className="busy">
@@ -105,32 +105,69 @@ const Dashboard = () => {
          
           <div className="textSection">
             <div className="minText">
+              <div className="oldName">
               <p className="texts">Name</p>
               <h3 className="dashText">Fireswitch Technologies LTD</h3>
+              </div>
+            
+              <div className="newjsx">
+              <p className="textz">Name</p>
               <h3 className="dashText">Fireswitch Technologies LTD - Test</h3>
+              </div>
+             
             </div>
             <div className="miniText">
+              <div className="oldType">
               <p className="test">Type</p>
               <button className='apiBut'>Live Key</button>
+              </div>
+            
               <br />
+              <div className="newType">
+              <p className="testz">Type</p>
               <button className="api-But">Test Key</button>
+              </div>
+             
             </div>
             <div className="mineText">
+              <div className="oldKey">
               <p className="texts">Key</p>
               <p className="anotherText">XXXX XXXX XXXX</p>
+              </div>
+              
+              <div className="newKey">
+              <p className="textz">Key</p>
               <p className="anotherText">XXXX XXXX XXXX</p>
+              </div>
+             
             </div>
             <div className="mintText">
+              <div className="oldCreate">
               <p className="texting">Created</p>
               <h3 className="fourthText">18 May, 2024</h3>
+              </div>
+              
+              <div className="newCreate">
+              <p className="textingx">Created</p>
               <h3 className="fourthText">18 May, 2024</h3>
+              </div>
+             
             </div>
             <div className="minyText">
+              <div className="oldViews">
               <p className="texts">View</p>
               <div className="eyer">
               <IoMdEye className='api_icon' />
+              </div>
+            {/* <div className="divider">
+             ------------------------------------------------------ 
+            </div> */}
               <br />
-              <IoMdEye className='api_icon' />
+              <div className="newViews">
+              <p className="textz">View</p>
+              <IoMdEye className='api__icon' />
+              </div>
+             
               </div>
               
             </div>
@@ -149,6 +186,7 @@ const Dashboard = () => {
               )}
             </div>
           </div>
+          {/* <div className="newBoxApi"></div> */}
           <div className="apiBoxs">
             <div className="box1">
               <h3 className="miniBox">80</h3>

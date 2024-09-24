@@ -143,3 +143,87 @@ body {
     color: #757E9F;
 }
 
+@media screen and (max-width: 900px) {
+    .topbarSection{
+        width: 88%;
+        height: 9%;
+        margin-left: -5rem;
+    }
+
+    .second-icon{
+        display: none;
+    }
+
+    
+}
+@media screen and (max-width: 600px){
+    .circle{
+        margin-right: -9rem;
+        width: 100%;
+        position: relative;
+        /* border: 2px solid black; */
+    }
+    .topbarSection{
+        position: fixed;
+        width: 108%;
+        /* padding: 10px, 16px, 10px, 16px; */
+        top: .1%;
+        height: 12vh;
+        z-index: 99;
+       
+    }
+    .top-menu{
+        z-index: 999;
+        position: absolute;
+    }
+}
+@media screen and (max-width: 480px) {
+    .topbarSection{
+        position: fixed;
+        width: 108%;
+        /* padding: 10px, 16px, 10px, 16px; */
+        top: .1%;
+        height: 12vh;
+        z-index: 99;
+       
+    }
+    .circle{
+        margin-right: -4rem;
+        width: 100%;
+        /* position: relative; */
+        /* border: 2px solid black; */
+    }
+   .top3{
+    white-space: nowrap;
+   }
+}
+
+@media screen and (max-width: 330px){
+    .topbarSection{
+        position: fixed;
+        width: 108%;
+        /* padding: 10px, 16px, 10px, 16px; */
+        top: .1%;
+        height: 12vh;
+        z-index: 99;
+        
+       
+    }
+    .top3{
+        font-size: 14px;
+    }
+    .iconContainer{
+        margin-right: 3.5rem;
+    }
+    .textContainer{
+        margin-left: -4rem;
+        /* margin-right: 4rem; */
+    }
+    .topIcon{
+        margin-left: -1.5rem;
+    }
+    .top-menu{
+        margin-right: 8rem;
+       margin-left: -15rem;
+    }
+}

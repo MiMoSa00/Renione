@@ -53,10 +53,13 @@ const Profile = () => {
           <div className="profileContain2">
             <p>Current Plan</p>
             <span className='paid'>Paid</span>
+            <div className="newlypaid">
             <p className='profile-P'>Your next bill is for<span className='profile-s'>₦20,000 on June 1 2024</span> <br /> <small>
               Mastercard ending in 1111
             </small></p>
             <button>Update card</button>
+            </div>
+            
           </div>
         </div>
 
@@ -91,11 +94,11 @@ const Profile = () => {
             <div className="radio">
               <label>Account type</label>
               <div className="option" onClick={() => handleToggle('Developer')}>
-                {selected === 'Developer' ? <IoIosRadioButtonOn /> : <IoIosRadioButtonOff />}
+                {selected === 'Developer' ? <IoIosRadioButtonOn className='newpro'/> : <IoIosRadioButtonOff className='newpros'/>}
                 <p className='dev'>Developer</p>
               </div>
               <div className="options" onClick={() => handleToggle('Business')}>
-                {selected === 'Business' ? <IoIosRadioButtonOn /> : <IoIosRadioButtonOff />}
+                {selected === 'Business' ? <IoIosRadioButtonOn  className='newpro'/> : <IoIosRadioButtonOff className='newpros'/>}
                 <p className='devs'>Business</p>
               </div>
             </div>
@@ -106,12 +109,16 @@ const Profile = () => {
           <h2>KYC</h2>
           <div className="another-container">
             <div className="kyc">
+              <div className="selecter">
               <label> ID</label>
               <select>
                 <option>NIN</option>
                 <option>Driver's License</option>
                 <option>International passport</option>
               </select>
+              </div>
+             
+              <div className="refresh">
               <p className='p-kyc'>Upload</p>
         <div className="upload-box" onClick={openFileDialog}>
         <span>MY NIN.png</span>
@@ -125,6 +132,8 @@ const Profile = () => {
             onChange={handleFileUpload}
           />
         </div>
+              </div>
+             
             </div>
             <div className="kyc-cont">
               <label>BVN</label>
@@ -138,7 +147,7 @@ const Profile = () => {
                 </div>
               </div>
             </div>
-            <div className="kyc-cont">
+            <div className="kyc-contain">
               <label>Address</label>
               <input type="password" placeholder='Enter Address' />
             </div>
@@ -164,15 +173,20 @@ const Profile = () => {
 
             <div className="kyb-item">
               <label  className="kyb-label">Memorandum <br /> of Article</label>
-            <input className="kyb-input"  type="mail" placeholder='My Memorandum Aritcle.png' />
+              <div className="latest">
+              <input className="kyb-input"  type="mail" placeholder='My Memorandum Aritcle.png' />
               <p className='P-kyc'>Uploaded</p>
       
+              </div>
+           
             </div>
             <div className="kyb-item">
       <label className="kyb-label">Registration <br /> Status</label>
-     
-        <input className="kyb-Input" type="mail" />
-        <p className="kyb-upload-text">Upload</p>
+     <div className="latest">
+     <input className="kyb-Input" type="mail" />
+     <p className="kyb-upload-text">Upload</p>
+     </div>
+   
      
     </div>
           

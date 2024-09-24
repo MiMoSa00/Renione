@@ -54,6 +54,7 @@ margin-bottom: .4rem;
   margin-left: 3rem;
   border: 3px solid red;
   color: black;
+  font-size: 29px;
   position: absolute;
 }
 
@@ -74,4 +75,49 @@ textarea {
 ::placeholder{
   color: #989EB3;
   margin-top: .5rem;
+}
+
+/* Media query */
+@media screen and (max-width: 900px) {
+  .modal-backdrop{
+    height: 150vh;
+ z-index: 99;
+  }
+
+  .modal-content{
+    width: 50%;
+    margin-left: -27rem;
+    height: 78%;
+  }
+  .Closebtn{
+    margin-left: -1rem;
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .modal-backdrop{
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  .modal-content{
+    width: 40%;
+    margin-left: -7rem;
+    margin-right: 17rem;
+    background-color: transparent;
+  }
+ .modal-content form{
+  height: 65%;
+
+ }
+ .modal-content .Closebtn{
+    margin-left: -.5rem;
+ font-size: 24px;
+   top: 4%;
+
+  }
+  .modalFooter{
+    margin-top: -4rem;
+  }
+
 }

@@ -1,9 +1,10 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.boxer{
+
+/* .boxer{
     width: 468px;
 
        border: 2px solid black;
@@ -12,23 +13,444 @@ body {
 .btner{
  
     width: 468px;
-}
+} */
 
 /* .next {
     margin-top: 7rem;
     border: 2px solid black;
 } */
 
-.nextt{
-    width: 490px;
-    padding: .6rem;
-    margin-top: 1.2rem;
-    margin-left: 1rem;
-    border-radius: 5px;
-    background: #001E88;
-    color: #FEFCFC;
+
+.forgotContainer {
+  height: 100%;
+  display: flex;
+  position: fixed;
+}
+
+.forgotimg {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.forgotDiv {
+  width: 100%;
+  height: max-content;
+  object-fit: cover;
+
+
+}
+
+
+
+.forgotSection {
+  width: 100%;
+  padding: 2rem;
+  background: #F1F6FD;
+}
+
+
+.forgotlogoDiv {
+  display: flex;
+  color: #001E88;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: .9rem;
+}
+
+
+
+.heading-section {
+  color: #001E88;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  font-size: 25px;
+}
+
+.Graph {
+  color: #001E88;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* .ForgotFormSection {
+  margin-top: 8rem;
+} */
+
+/* .heading-section {
+  text-align: center;
+  color: #001E88;
+ 
+} */
+
+.ForgotFormSection {
+  content: '';
+  padding: 1rem;
+  background: linear-gradient(to bottom, #001E88, #FEFCFC);
+  margin-top: 1rem;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+/* .email {
+  font-size: 20px;
+  color: #848995;
+  font-weight: 400;
+  margin-bottom: 1rem;
+} */
+
+
+
+.ForgotContainer label {
+  font-size: 20px;
+  color: #848995;
+}
+
+input[type="email"] {
+  width: 100%;
+  height: 8vh;
+  margin: 10px 0px;
+  border: 2px solid #848995;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* .newbtn {
+  width: 40%;
+  height: 77%;
+  padding: .6rem;
+  margin-top: .7rem;
+  margin-left: .2rem;
+  border-radius: 5px;
+  background: #001E88;
+  box-shadow: 5px 4px 4px 2px #848995;
+  color: #FEFCFC;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+} */
+
+
+.Forgototp {
+  margin-top: 1rem;
+}
+
+.Forgotboxs {
+  color: #848995;
+  font-size: 20px;
+}
+
+.otpForgot {
+  width: 100%;
+  /* margin: 20px ; */
+  display: flex;
+  /* gap: 30px; */
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+input[type="otp"] {
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid #848995;
+  width: 14%;
+  height: 25%;
+  padding: .6rem;
+  outline: 2px solid lightgrey;
+  text-align: center;
+}
+
+.otpForgot input:focus {
+  border: 3px solid var(--newBgColor);
+}
+
+/* .buts {
+  margin-top: 1.5rem;
+}
+
+.btns {
+  width: 100%;
+  height: 175%;
+  background: transparent;
+  color: #001E88;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 2px solid #001E88;
+}
+
+span {
+  color: #001E88;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.para {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #848995;
+} */
+.nextt {
+  width: 90%;
+  padding: .6rem;
+  margin-top: 1.2rem;
+  margin-left: 1rem;
+  border-radius: 5px;
+  background: #001E88;
+  color: #FEFCFC;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: 1px solid #001E88;
+}
+
+@media screen and (max-width: 900px) {
+  .forgotContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ForgotFormSection {
+    width: 150%;
+    margin-left: 1.9rem;
+  }
+
+  .forgotimg {
+    display: none;
+  }
+
+  .forgotSection {
+    width: 70%;
+  }
+
+  .forgotSect {
+    width: 80%;
+  }
+
+  .ForgotContainer label{
+    font-size: 14px;
+  }
+  .ForgotContainer input {
+    width: 98%;
+    display: flex;
+  }
+
+  /* .email{
+      font-size: 16px;
+      width: 90%;
+    } */
+  .Forgototp {
+    width: 90%;
+  }
+
+  .nextt {
+    width: 80%;
+  }
+
+  .forgotlogoDiv {
+    margin-top: 2rem;
+    margin-left: 19rem;
+  }
+
+  .heading-section {
+    margin-top: 1rem;
+    margin-left: 19rem;
+    font-size: 18px;
+    margin-bottom: -1px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .forgotSection {
+    width: 80%;
+  }
+
+  .ForgotFormSection {
+    width: 130%;
+    margin-left: -.5rem;
+  }
+
+  .forgotSect {
+    width: 90%;
+  }
+
+  .forgotlogoDiv {
+    margin-bottom: 30px;
+    margin-left: 7rem;
+  }
+
+  .heading-section {
+    margin-bottom: 20px;
+    font-size: 18px;
+    margin-left: 7rem;
+  }
+
+  .otpForgot {
+    width: 100%;
+  }
+
+  .otpForgot input {
+    width: 14%;
+    gap: 25px;
+    height: 35px;
+  }
+
+  .nextt {
+    margin-top: 15px;
+    width: 100%;
+    margin-left: -.3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .forgotSection {
+    width: 80%;
+  }
+
+  .ForgotFormSection {
+    width: 130%;
+    margin-left: -.5rem;
+  }
+
+  .forgotSect {
+    width: 90%;
+  }
+
+  .forgotlogoDiv {
+    margin-bottom: 30px;
+    margin-left: 7rem;
+  }
+
+  .heading-section {
+    margin-bottom: 20px;
+    font-size: 17px;
+    margin-left: 6rem;
+  }
+
+  .otpForgot {
+    width: 100%;
+  }
+
+  .otpForgot input {
+    width: 14%;
+    gap: 25px;
+    height: 35px;
+  }
+
+  .nextt {
+    margin-top: 15px;
+    width: 100%;
+    margin-left: -.3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .forgotSection {
+    width: 80%;
+  }
+
+  .ForgotFormSection {
+    width: 130%;
+    margin-left: -.1rem;
+  }
+
+  .forgotSect {
+    width: 90%;
+  }
+
+  .forgotlogoDiv {
+    margin-bottom: -30px;
+    margin-left: 6rem;
+  }
+
+  .heading-section {
+    margin-top: 30px;
+    font-size: 17px;
+    width: 90%;
+    margin-left: 4rem;
+  }
+
+  .otpForgot {
+    width: 100%;
+  }
+
+  .otpForgot input {
+    width: 14%;
+    gap: 25px;
+    height: 35px;
+  }
+
+  .nextt {
+    margin-top: 1.6rem;
+    width: 100%;
+    margin-left: -.3rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .forgotlogoDiv {
+    margin-bottom: 15px;
+    margin-top: -2rem;
+    margin-left: 5rem;
+  }
+
+
+  .ForgotFormSection {
+    width: 135%;
+    margin-left: -1rem;
+    height: 60vh;
+  }
+
+  .ForgotContainer input{
+    width: 105%;
+    margin-left: -.4rem;
+  }
+  .ForgotContainer label{
+    font-size: 14px;
+  }
+
+.Forgotboxs{
+  font-size: 14px;
+}
+
+.Forgototp{
+  margin-top: -.4rem;
+}
+  .heading-section {
+    font-size: 14px;
+    width: 120%;
+    margin-top: -1rem;
+    margin-left: 3rem;
+  }
+
+  /* .formSection{
+      width: 115%;
+      margin-left: -2rem;
+    } */
+
+
+  .Graph {
     font-size: 16px;
-    font-weight: 600;
-    border: none;
-    outline: 1px solid #001E88;
+  }
+
+  .Forgototp input {
+    width: 25px;
+    height: 25px;
+  }
+
+  .otpForgot{
+    width: 113%;
+    margin-left: -.3rem;
+  }
+
+  .nextt {
+    padding: 6px;
+    font-size: 14px;
+  }
 }

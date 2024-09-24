@@ -1,31 +1,28 @@
 import React, { useState } from 'react'
 
 import './TopBar.css'
-// Imported icons
-import { AiOutlineBell } from 'react-icons/ai'
-
-import { CgMenuGridR } from 'react-icons/cg'
-import { FaChevronDown, FaChevronUp, FaRegCircle } from 'react-icons/fa';
+// imported icons
+import { AiOutlineBell } from 'react-icons/ai';
+import { CgMenuGridR } from 'react-icons/cg';
+import { FaChevronDown, FaChevronUp, FaRegCircle, FaBars, FaTimes   } from 'react-icons/fa';
 
 
 const TopBar = () => {
-
   const [dropdownVisible, setDropdownVisible] = useState(false);
+
 
   const toggleDropdown = () => {
     setDropdownVisible(!dropdownVisible);
-  }
+  };
+
+
   return (
     <div className='topbarSection'>
       <div className="iconContainer">
+     
         <AiOutlineBell className='top-icon' />
       </div>
       <div className="circle">
-
-
-
-
-
         <div className="textContainer">
           <FaRegCircle className='circle-icon' />
           <div className="fire">
@@ -72,6 +69,8 @@ const TopBar = () => {
 
 
       </div>
+
+    
 
     </div>
   )

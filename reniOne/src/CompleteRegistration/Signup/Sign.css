@@ -24,7 +24,7 @@ body {
 }
 
 .formSect {
-    width: 100%;
+    width: 90%;
     padding: 1rem;
     background: #F1F6FD;
 
@@ -92,8 +92,8 @@ form {
 .inp-box {
     display: flex;
     flex-direction: column;
-    width: 90%;
-   /* gap: 6px; */
+    width: 100%;
+    /* gap: 6px; */
 }
 
 
@@ -145,10 +145,11 @@ input[type="checkbox"] {
     justify-content: center;
     outline: none;
 }
-.checkDiv{
+
+.checkDiv {
     color: #848995;
-  margin-right: 2rem;
-  font-size: 17px;
+    margin-right: 2rem;
+    font-size: 17px;
 }
 
 input[type="checkbox"]::after {
@@ -200,9 +201,10 @@ input[type="checkbox"]:checked::after {
     outline: 1px solid #001E88;
     /* box-shadow: 5px 4px 4px 2px #848995; */
 }
-.eyeIcon{
+
+.eyeIcon {
     width: 5%;
-    margin-left: 30rem;
+    margin-left: 31rem;
     background: none;
     font-size: 18px;
     margin-top: -2.4rem;
@@ -221,10 +223,332 @@ input[type="password"] {
     border-radius: 10px;
 
 }
-.inp-box label{
+
+.inp-box label {
     color: #848995;
 }
-.inputes{
+
+.inputes {
     margin-top: 1.5rem;
     /* margin-bottom: 1.5rem; */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 900px) {
+    .signupSection {
+        flex-direction: column;
+        /* padding: 15px; */
+        overflow: scroll;
+    }
+    .agreement input{
+        width: 5%;
+        padding: .9rem;
+        margin-right: -.3rem;
+    }
+
+    .agreement {
+        width: 114%;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .formSect {
+        width: 100%;
+    }
+
+    .name.grid {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .inp-box input {
+        width: 100%;
+    }
+    .inp-box label{
+        margin-left: 1rem;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    .inp-box input[type="text"] {
+        width: 100%;
+    }
+
+    .eyeIcon {
+        margin-left: 42rem;
+        /* margin-top: 3px; */
+        gap: 1.5rem;
+        display: flex;
+    }
+
+    .checkDiv {
+        margin-right: 14rem;
+    }
+
+    .buttonContainer {
+        width: 98%;
+    }
+
+    .flex {
+        margin-left: 7%;
+        /* width: 180%; */
+    }
+
+    .header .head {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    .flex {
+        width: 90%;
+        margin-left: 4%;
+    }
+
+    .inp-box {
+        width: 75%;
+        position: relative;
+    }
+
+    .agreement {
+        width: 150%;
+    }
+
+    .inp-box input[type="text"] {
+        border: 1px solid #848995;
+        width: 130%;
+    }
+
+    .inp-box input[type="password"] {
+        border: 1px solid #848995;
+        width: 130%;
+    }
+
+    select {
+        width: 130%;
+    }
+
+    .eyeIcon {
+        position: absolute;
+        right: -5rem;
+        /* Adjust this value to move the icon left or right */
+        top: 109%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+    .checkDiv {
+        font-size: 14px;
+    }
+
+    input[type="checkbox"] {
+        width: 5%;
+        margin-right: .5rem;
+        height: 60%;
+    }
+
+    .buttonContainer {
+        width: 100%;
+        margin-top: 3%;
+    }
+
+    .header .head {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .reniLogo img {
+        max-width: 80px;
+        justify-content: center;
+    }
+
+    .reniLogo .graph {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .header .head {
+        font-size: 18px;
+    }
+
+    input[type="checkbox"] {
+        width: 5%;
+        height: 64%;
+
+    }
+
+    .reniLogo img {
+        max-width: 70px;
+    }
+
+    .eyeIcon {
+        margin-right: 2rem;
+    }
+
+    .reniLogo .graph {
+        font-size: 16px;
+    }
+
+    .agreement {
+        width: 165%;
+    }
+
+    .checkDiv {
+        font-size: 13px;
+
+    }
+
+    .inp-box {
+        margin-bottom: 8px;
+    }
+
+    .buttonContainer {
+        width: 90%;
+        margin-top: 6%;
+    }
+
+    .flex {
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .head {
+        font-size: 16px;
+    }
+
+    .reniLogo img {
+        max-width: 60px;
+    }
+
+    .reniLogo .graph {
+        font-size: 14px;
+    }
+
+    .checkDiv {
+        font-size: 13px;
+
+    }
+
+
+    .eyeIcon {
+        margin-right: 2rem;
+        margin-top: -2rem;
+    }
+
+    .name.grid {
+        gap: 5px;
+    }
+
+    input[type="checkbox"] {
+        width: 6%;
+        height: 60%;
+
+    }
+
+    .inputes {
+        margin-top: -.1rem;
+    }
+
+    .buttonContainer button {
+        width: 70%;
+        position: absolute;
+        margin-top: .1rem;
+        right: 14%;
+    }
+
+    form {
+        padding-bottom: 5.6rem;
+    }
+
+    .flex {
+        height: 146vh;
+    }
+
+
+
+}
+
+
+@media (max-width: 330px) {
+    .header {
+        font-size: 14px;
+        margin-right: 5rem;
+    }
+
+    .signupSection {
+        height: 100vh;
+
+    }
+
+
+    .reniLogo img {
+        max-width: 50px;
+    }
+
+    .reniLogo .graph {
+        font-size: 12px;
+    }
+
+    .checkDiv {
+        font-size: 12.5px;
+        /* width: 145%; */
+        margin-top: -1.8rem;
+
+    }
+
+    .flex {
+        width: 72%;
+        margin-left: .2rem;
+    }
+
+    .inp-box input[type="text"] {
+        width: 95%;
+    }
+
+    .inp-box input[type="password"] {
+        width: 95%;
+    }
+
+    select {
+        width: 95%;
+    }
+
+    .agreement {
+        width: 150%;
+        margin-left: -.7rem;
+    }
+
+    input[type="checkbox"] {
+        margin-top: -1.5rem;
+        width: 4%;
+        height: 109%;
+    }
+
+    .eyeIcon {
+        margin-right: 7.5rem;
+        margin-top: -2rem;
+    }
+
+    .inputes {
+        /* margin-top: -1rem; */
+    }
+
+    .name.grid {
+        gap: 4px;
+    }
+
+    .buttonContainer button {
+        width: 55%;
+        position: absolute;
+        margin-top: .6rem;
+        margin-right: 5.6rem;
+    }
 }

@@ -38,28 +38,28 @@ const Forgot = () => {
     }
   }
   return (
-    <div className='mainContainer'>
-      <div className="imgContainer">
-        <img src={backgroundImg} className='imgDiv' />
+    <div className='forgotContainer'>
+      <div className="forgotimg">
+        <img src={backgroundImg} className='forgotDiv' />
       </div>
 
-      <div className="verifySection">
-        <div className="formSect">
+      <div className="forgotSection">
+        <div className="forgotSect">
           <div className="header">
-            <div className="logoDiv">
+            <div className="forgotlogoDiv">
               <img src={logo} className='Logo' />
-              <p className='graph'>RENI.One</p>
+              <p className='Graph'>RENI.One</p>
             </div>
-            <h1 className='headingsection'>Forgot Password</h1>
+            <h1 className='heading-section'>Forgot Password</h1>
 
           </div>
 
-          <div className="formSection">
+          <div className="ForgotFormSection">
             <form>
               <div className="formDiv">
                 <p className="email">Enter the OTP sent to your email address to continue the password reset</p>
 
-                <div className='formContainer'>
+                <div className='ForgotContainer'>
                   <label>
                     Email
                   </label>
@@ -69,11 +69,11 @@ const Forgot = () => {
               </div>
 
 
-              <div className="otp">
-                <p className="boxs">
+              <div className="Forgototp">
+                <p className="Forgotboxs">
                   OTP
                 </p>
-                <div className="otpArea">
+                <div className="otpForgot">
                   {otp.map((data, i) => (
                     <input
                       key={i}

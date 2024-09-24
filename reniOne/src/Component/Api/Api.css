@@ -8,10 +8,12 @@ body {
     height: 100vh;
 }
 
+
 .apiContainer {
-    max-width: 100%;
-   gap: 32px;
+    width: 100%;
+    gap: 32px;
     margin: 0;
+
     /* position: relative; */
     /* z-index: 999; */
 }
@@ -52,7 +54,7 @@ body {
     z-index: 999;
 }
 
-.api_menu{
+.api_menu {
     border-radius: 8px;
     background-color: #FFFFFF;
     position: absolute;
@@ -83,7 +85,7 @@ body {
     height: 50px;
     width: 100%;
     padding: 4px;
-   
+
 }
 
 .apiWarning {
@@ -104,8 +106,8 @@ body {
 }
 
 .minText {
-  width: 35%;
-    line-height: 2;
+    width: 35%;
+    line-height: 2.4;
     /* flex-basis: 80%; */
 }
 
@@ -115,7 +117,7 @@ body {
     width: 100%;
     justify-content: space-between;
     margin-top: 2%;
-line-height: 2.3;
+    /* line-height: 1.5; */
     gap: 24px;
 
 }
@@ -125,11 +127,10 @@ line-height: 2.3;
 .texting {
     color: #667085;
 }
-/* 
+
 .mintText {
-    
-    margin-left: 69px;
-} */
+    line-height: 2.1;
+}
 
 .mineText {
     /* margin-top: 22px; */
@@ -138,20 +139,26 @@ line-height: 2.3;
     margin-left: 72px;
 }
 
+/* .miniText .testz{
+   margin-bottom: -4rem;
+ } */
+
 .miniText {
- 
+    /* line-height: 1.9; */
     width: 11%;
     margin-right: -84px;
     margin-left: 40px;
     /* border: 2px solid black; */
 
 }
-.API{
+
+.API {
     line-height: 2.4;
 }
 
 .apiBut {
     width: 68px;
+    margin-top: .8rem;
     height: 24px;
     border-radius: 8px;
     border: 1px solid #12B76A;
@@ -189,13 +196,13 @@ line-height: 2.3;
     width: 160px;
 }
 
-.minyText {
-    /* margin-left: 12rem; */
-    /* margin-top: 21px; */
-    line-height: 2;
-}
+/* .minyText {
+    margin-left: 12rem; 
+    margin-top: 21px;
+     line-height: .5;
+} */
 
-.eyer{
+.eyer {
     line-height: 2.7;
     margin-top: .5rem;
     /* border: 2px solid black; */
@@ -204,6 +211,17 @@ line-height: 2.3;
 .api_icon {
     margin-left: 8px;
     color: #757E9F;
+    width: 40px;
+    margin-bottom: -1rem;
+    margin-top: -.1rem;
+    height: 27px;
+}
+
+.api__icon {
+    margin-left: 8px;
+    color: #757E9F;
+    margin-top: -2rem;
+
     width: 40px;
     height: 27px;
 }
@@ -281,12 +299,13 @@ line-height: 2.3;
     padding: 24px;
     gap: 20px;
 }
-.lastSection{
+
+.lastSection {
     display: flex;
     justify-content: space-between;
 }
 
-.lastText{
+.lastText {
     margin-top: 14px;
     line-height: 2;
     justify-content: space-between;
@@ -294,13 +313,14 @@ line-height: 2.3;
     /* height: 262px; */
 }
 
-.api-smallie{
+.api-smallie {
     font-size: 17px;
     font-weight: 400;
     /* width: 319px; */
     color: #757E9F;
 }
-.apiSmall{
+
+.apiSmall {
     font-size: 16px;
     font-weight: 500;
     line-height: 2.9;
@@ -308,48 +328,51 @@ line-height: 2.3;
 
 
 
-.textIng{
+.textIng {
     color: #757E9F;
 }
 
-.token{
-  margin-top: 14px;
-  line-height: 2.3;
-  width: 250px;
-}
-.another-Text{
-  font-size: 17px;
-  font-weight: 400;  
+.token {
+    margin-top: 14px;
+    line-height: 2.3;
+    width: 250px;
 }
 
-.status{
+.another-Text {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.status {
     margin-top: 20px;
     line-height: .8;
 }
-.Status{
+
+.Status {
     /* width: 85px;
     height: 27px; */
     border-radius: 999px;
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
-   background-color: #12B76A;
+    background-color: #12B76A;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
     margin-top: 15px;
     margin-left: 69px;
-    
+
     border: 2px solid black;
 }
 
-.hStatus{
+.hStatus {
     color: #757E9F;
     font-size: 16px;
     font-weight: 400;
     margin-left: -6px;
 }
-.api-text{
+
+.api-text {
     margin-top: 11px;
     line-height: 1.8;
     height: 20px;
@@ -357,87 +380,106 @@ line-height: 2.3;
     margin-left: 24px;
 }
 
-.fourth_text{
+.fourth_text {
     /* line-height: 2.5; */
     margin-left: 320px;
     /* margin-top: 1.7px; */
     font-weight: 500;
- 
+
 }
-.apitexting{
+
+.apitexting {
     color: #757E9F;
     font-size: 16px;
     font-weight: 400;
 }
 
-.apiShow{
+.apiShow {
     margin-top: 12px;
     margin-left: 85px;
 }
 
-.top-Menu{
+.top-Menu {
     position: sticky;
 }
 
-.Show{
- color: #757E9F;
+.Show {
+    color: #757E9F;
 }
-.top-Arrow{
+
+.top-Arrow {
     margin-left: 65px;
     font-size: 28px;
     margin-top: 10px;
     color: #757E9F;
 }
 
-input[type="api-input"]{
+input[type="api-input"] {
     width: 1000px;
     height: 48px;
     position: relative;
 }
 
-.apiSmally{
+.apiSmally {
     display: flex;
     justify-content: space-between;
-  font-weight: 400;
-  font-size: 19px;
-  color: #757E9F;
-  width: 1000px;
+    font-weight: 400;
+    font-size: 19px;
+    color: #757E9F;
+    width: 1000px;
 }
 
-.Api-smallie{
+.Api-smallie {
     width: 180px;
 }
 
-.api-smaller{
+.api-smaller {
     /* width: 85px; */
     margin-left: 40px;
 }
 
-.api-smallz{
-  width: 70px;
+.api-smallz {
+    width: 70px;
 }
 
-.app-smallie{
+.app-smallie {
     width: 350px;
 }
 
-.api_Smallie{
+.api_Smallie {
     width: 250px;
 }
 
 
-.apiLil{
+.apiLil {
     display: flex;
     justify-content: space-between;
     width: 980px;
     border: 2px solid black;
 }
 
-.ip-container{
+.ip-container {
+    width: 100%;
+    background-color: #F3F3F3;
+    height: 4.8vh;
+    border-radius: 1rem;
+    border: 2px solid black;
+    margin-top: .6rem;
+}
+
+.ipsi {
+    display: none;
+}
+
+.ipi {
+    display: none;
+}
+
+/* .ip-container{
     display: flex;
-    position: absolute;
-    /* z-index: 1;  */
-    margin-left: -10px;
+    position: absolute; */
+/* z-index: 1;  */
+/* margin-left: -10px;
     height: 35px;
     max-width: 1000px;
     gap: 24px;
@@ -448,10 +490,776 @@ input[type="api-input"]{
     padding-bottom: 8px;
     padding-right: 16px;
     justify-content: space-between;
-}
+} */
 /* .ip{
     width: 100%; 
   
     
   
   } */
+
+@media screen and (max-width: 600px) {
+
+    .parent {
+        /* border: 2px solid black; */
+        position: relative;
+    }
+
+    .apiContainer {
+        width: 100%;
+        height: 130vh;
+    }
+
+    .apiSection {
+        margin-left: -1rem;
+        height: 89%;
+        width: 100%;
+    }
+
+    .textz,
+    .testz,
+    .textingx {
+        display: block;
+        color: #757E9F;
+    }
+
+    .newapis {
+        margin-right: -29rem;
+        margin-top: -2rem;
+        display: flex;
+        gap: 54px;
+        position: absolute;
+    }
+
+    .apiSection .oldName {
+        gap: 49px;
+    }
+
+    .apiSection .oldType {
+        display: flex;
+        align-items: center;
+        gap: 55px;
+        margin-top: -4.6rem;
+        margin-bottom: -6rem;
+        margin-left: -2.4rem;
+    }
+
+    .apiSection .oldType .test {
+        margin-top: .5rem;
+    }
+
+    .new-Type {
+        margin-left: -2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        margin-top: -1.5rem;
+        position: absolute;
+    }
+
+    /* .apiSection .oldKeys {
+        display: flex;
+        align-items: center;
+        gap: 65px;
+        margin-top: 9rem;
+        position: absolute;
+        margin-bottom: -rem;
+        margin-left: -6rem;
+    } */
+    .apiSection .oldKeys {
+        display: flex;
+        align-items: center;
+        gap: 59px;
+        margin-top: .7rem;
+        /* margin-bottom: -2rem; */
+        margin-left: -4.2rem;
+    }
+
+    .apiSection .anotherText {
+        width: 50%;
+        margin-left: 5.5rem;
+
+
+
+    }
+
+    .new-Key {
+        margin-left: -1rem;
+        margin-top: -1.7rem;
+        display: flex;
+        width: 90%;
+        position: absolute;
+    }
+
+    .new-Key .textz {
+        margin-top: .5rem;
+    }
+
+    .apiSection .oldCreate {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-top: -1rem;
+        /* margin-bottom: -2rem; */
+        margin-left: .5rem;
+    }
+
+    .new-Create {
+        margin-left: 0.1rem;
+        position: absolute;
+        margin-top: -1.2rem;
+        gap: 32px;
+        display: flex;
+    }
+
+    .apiSection .oldViews {
+        display: flex;
+        align-items: center;
+        gap: 39px;
+        margin-top: -2rem;
+        /* margin-bottom: -2rem; */
+        margin-left: .5rem;
+        border-bottom: 2px solid #757E9F;
+        width: 100%;
+    }
+
+    .apiSection .api_icon {
+        margin-bottom: -.4rem;
+
+    }
+
+    .midContainer {
+        height: 83%;
+        margin-left: -1rem;
+        width: 100%;
+    }
+
+    .new-Views {
+        margin-left: -0.1rem;
+        position: absolute;
+        gap: 42px;
+        display: flex;
+        align-items: center;
+        margin-top: -1.3rem;
+    }
+
+    .api__icon {
+        margin-top: .5rem;
+    }
+
+    .apiText {
+        font-size: 14px;
+        height: 15vh;
+        width: 88%;
+    }
+
+    .apiWarning {
+        width: 75%;
+        margin-left: 2rem;
+        font-size: 17px;
+    }
+
+    .lastContainer {
+        margin-top: 2rem;
+        margin-left: -1rem;
+        width: 100%;
+        height: 45%;
+    }
+
+    .th {
+        font-size: 13.5px !important;
+    }
+
+    .ip-container td {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 0.5rem !important;
+        border-radius: 1rem !important;
+    }
+
+    .ip-container p.ip,
+    .ip-container p.ipe {
+        margin: 0 !important;
+        flex: 1 1 auto !important;
+        color: #757E9F !important;
+        margin-left: 0.5rem !important;
+    }
+
+    .ipi {
+        margin: 0 !important;
+        margin-top: 0.1rem !important;
+        display: inline-block !important;
+        margin-left: 0.5rem !important;
+        flex: 1 1 auto !important;
+        color: #757E9F !important;
+    }
+
+    .ip-container p.ipe {
+        margin-left: 2rem !important;
+    }
+
+    .ip-container p.ips {
+        display: inline-block !important;
+        vertical-align: middle !important;
+        color: black !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+    }
+
+    .ipsi {
+        display: inline-block !important;
+        vertical-align: middle !important;
+        color: black !important;
+        font-weight: 500 !important;
+        font-size: 14px !important;
+    }
+
+    .ips {
+        font-size: 12px !important;
+    }
+
+    .lastText {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .tr {
+        width: 100%;
+        display: flex;
+        gap: 22%;
+    }
+
+    .td {
+        margin-left: .5rem !important;
+    }
+
+    .tds {
+        margin-left: 9.7rem !important;
+    }
+
+    .ths {
+        display: none !important;
+    }
+}
+
+/* Styles for screens 600px wide */
+@media screen and (max-width: 600px) {
+    .apiContainer {
+        width: 100%;
+        height: 130vh;
+    }
+
+    .apiSection {
+        margin-left: -1rem;
+        height: 89%;
+        width: 100%;
+    }
+
+    .textz,
+    .testz,
+    .textingx {
+        display: block;
+        color: #757E9F;
+    }
+
+    .newapis {
+        margin-right: -29rem;
+        top: 63%;
+        display: flex;
+        gap: 46px;
+        position: absolute;
+    }
+
+    .new-Type {
+        margin-left: -2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        top: 67.5%;
+        position: absolute;
+    }
+
+    .new-Key {
+        margin-left: -4.3rem;
+        top: 72%;
+        display: flex;
+        width: 90%;
+        position: absolute;
+    }
+
+    .new-Create {
+        margin-left: 0.1rem;
+        position: absolute;
+        top: 76%;
+        gap: 32px;
+        display: flex;
+    }
+
+    .midContainer {
+        height: 83%;
+        margin-left: -1rem;
+        width: 100%;
+    }
+
+    .new-Views {
+        margin-left: -0.1rem;
+        position: absolute;
+        gap: 42px;
+        display: flex;
+        align-items: center;
+        top: 80.7%;
+    }
+
+    .apiText {
+        font-size: 14px;
+        height: 15vh;
+        width: 88%;
+    }
+
+    .apiWarning {
+        width: 75%;
+        margin-left: 2rem;
+        font-size: 17px;
+    }
+
+    .lastContainer {
+        margin-top: 2rem;
+        margin-left: -1rem;
+        width: 100%;
+        height: 45%;
+    }
+
+    .th {
+        font-size: 13.5px !important;
+    }
+
+    .ip-container td {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 0.5rem !important;
+        border-radius: 1rem !important;
+    }
+
+    .ip-container p.ip,
+    .ip-container p.ipe {
+        margin: 0 !important;
+        flex: 1 1 auto !important;
+        color: #757E9F !important;
+        margin-left: 0.5rem !important;
+    }
+
+    .ipi {
+        margin: 0 !important;
+        margin-top: 0.1rem !important;
+        display: inline-block !important;
+        margin-left: 0.5rem !important;
+        flex: 1 1 auto !important;
+        color: #757E9F !important;
+    }
+
+    .ip-container p.ipe {
+        margin-left: 2rem !important;
+    }
+
+    .ip-container p.ips {
+        display: inline-block !important;
+        vertical-align: middle !important;
+        color: black !important;
+        font-weight: 500 !important;
+        font-size: 16px !important;
+    }
+
+    .ips {
+        font-size: 12px !important;
+    }
+
+    .ipsi {
+        display: inline-block !important;
+        vertical-align: middle !important;
+        color: black !important;
+        font-weight: 500 !important;
+        /* font-size: 14px !important; */
+        font-size: 12px !important;
+    }
+
+    .lastText {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .tr {
+        width: 100%;
+        display: flex;
+        gap: 22%;
+    }
+
+    .td {
+        margin-left: -2rem !important;
+    }
+
+    .tds {
+        margin-left: 4rem !important;
+    }
+
+    .ths {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .apiContainer {
+        width: 100%;
+    }
+
+    .apiSection {
+        width: 96%;
+        margin-left: -.5rem;
+    }
+
+    .apiText {
+        margin-left: .5rem;
+        width: 95%;
+    }
+
+    .apiWarning {
+        width: 90%;
+        margin-left: 1.5rem;
+        display: flex;
+        align-items: center;
+        margin-right: -.9rem;
+        font-size: 14px;
+    }
+
+    .apiSection .oldName {
+        margin-left: -1.2rem;
+    }
+
+    .apiSection .oldName .dashText {
+        font-size: 14px;
+    }
+
+    .newapis {
+        margin-left: -1.2rem;
+    }
+
+    .newapis .dashText {
+        font-size: 13px;
+
+    }
+
+    .apiSection .oldType {
+        margin-left: -3.2rem;
+        gap: 53px;
+        margin-top: -5rem;
+    }
+
+    .new-Type {
+        margin-left: -3.7rem;
+        margin-top: -2.1rem;
+    }
+
+    .apiSection .oldKeys {
+        margin-left: -5.5rem;
+        gap: 45px;
+    }
+
+    .apiSection .oldKeys .anotherText {
+        margin-left: 6.6rem;
+        font-size: 13.5px;
+    }
+
+    .new-Key {
+        margin-left: -5.4rem;
+    }
+
+    .apiSection .new-Key .anotherText {
+        white-space: nowrap;
+        font-size: 13px;
+        margin-top: .3rem;
+        margin-left: 6.7rem;
+    }
+
+    .apiSection .oldCreate {
+        margin-left: -.4rem;
+        gap: 40px;
+    }
+
+    .new-Create {
+        margin-left: -.9rem;
+    }
+
+    .new-Create .fourthText {
+        font-size: 13px;
+        margin-top: .3rem;
+    }
+
+    .apiSection .oldViews {
+        margin-left: -.3rem;
+        gap: 50px;
+    }
+
+    .new-Views {
+        margin-left: -.4rem;
+    }
+
+    .midContainer {
+        width: 96%;
+        margin-left: -.5rem;
+    }
+
+    .lastContainer {
+        width: 96%;
+        margin-left: -.5rem;
+    }
+
+    .api-name {
+        white-space: nowrap;
+        font-size: 13px;
+        margin-left: .1rem;
+        margin-top: .2rem;
+    }
+
+    .tide {
+        width: 4rem !important;
+        margin-left: -3.5rem !important;
+        margin-top: .2rem !important;
+        font-size: 13px !important;
+    }
+
+    .th {
+        white-space: nowrap;
+      
+    }
+   
+
+    .td {
+        margin-left: -1rem !important;
+    }
+
+    .ip-container {
+        width: 110% !important;
+    }
+
+    .ip-container td {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        padding: .5rem !important;
+        font-size: 11px;
+    }
+
+
+
+    .ip-container p {
+        flex: 1 1 42% !important;
+        /* Flex-basis of 48% ensures two elements per row */
+        margin-left: 0 !important;
+        margin-top: 0.5rem !important;
+        color: #757E9F !important;
+    }
+
+    .ip-container .ips,
+    .ip-container .ipsi {
+        color: black !important;
+        font-weight: 500 !important;
+        font-size: 11px !important;
+
+    }
+
+    .ip-container p:nth-child(4) {
+        white-space: nowrap !important;
+        margin-top: -.5rem !important;
+    }
+
+    .ip-container p:nth-child(3) {
+
+        margin-top: -.5rem !important;
+    }
+
+    .ip-container p:nth-child(5) {
+        margin-top: -.5rem !important;
+    }
+
+    .ip-container p:nth-child(odd) {
+        margin-right: 3% !important;
+        margin-left: -2px !important;
+        width: 25% !important;
+        white-space: nowrap;
+    }
+
+    /* .ip-container p span {
+      display: inline-block !important;
+    } */
+
+
+}
+
+
+
+
+
+
+
+
+
+/* .apiContainer{
+        width: 100%;
+        height: 130vh;
+    }
+    .apiSection{
+    margin-left: -1rem;
+    height: 89%;
+        width: 100%;
+    }
+
+    .textz,
+    .testz,
+    .textingx {
+        display: block;
+        color: #757E9F;
+    }
+
+    .newapis{
+        margin-right: -29rem;
+        top: 63%;
+       
+        display: flex;
+        gap: 46px;
+        position: absolute;
+       
+    }
+
+    .new-Type {
+        margin-left: -2.5rem;
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        top: 67.5%;
+        position: absolute;
+    }
+
+    .new-Key {
+        margin-left: -4.3rem;
+        top: 72%;
+        display: flex;
+        width: 90%;
+        position: absolute;
+    }
+
+    .new-Create {
+        margin-left: .1rem;
+        position: absolute;
+        top: 76%;
+        gap: 32px;
+        display: flex;
+
+    }
+    .midContainer{
+        height: 83%;
+        margin-left: -1rem;
+        width: 100%;
+    }
+
+    .new-Views {
+        margin-left: -.1rem;
+        position: absolute;
+        gap: 42px;
+        display: flex;
+        align-items: center;
+        top: 80.7%;
+    }
+    .apiText{
+        font-size: 14px;
+        height: 15vh;
+        width: 88%;
+    }
+
+    .apiWarning{
+        width: 75%;
+        margin-left: 2rem;
+        font-size: 17px;
+    }
+
+    .lastContainer{
+        margin-top: 2rem;
+        margin-left: -1rem;
+        width: 100%;
+        height: 45%;
+    }
+
+    .th{
+        font-size: 13.5px !important;
+    }
+  
+
+   
+    .ip-container td {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: .5rem !important;
+        border-radius: 1rem;
+       
+       
+    }
+
+    .ip-container p.ip, .ip-container p.ipe {
+        margin: 0 !important; 
+        flex: 1 1 auto !important; 
+        color: #757E9F !important; 
+        margin-left: .5rem !important;
+    }
+
+    .ipi{
+        margin: 0 !important; 
+        margin-top: -1rem !important;
+        margin-left: .5rem !important;
+        flex: 1 1 auto !important; 
+        color: #757E9F !important; 
+    }
+    .ip-container p.ipe {
+        margin-left: 2rem !important;
+    }
+
+    .ip-container p.ips {
+        display: inline-block !important;
+        vertical-align: middle !important;
+        color: black !important; 
+        font-weight: 500 !important; 
+        font-size: 16px !important; 
+    }
+    
+    
+ .ips{
+    font-size: 12px !important;
+ 
+ }
+ .ipsi{
+    font-size: 12px !important;
+ 
+ }
+    .lastText{
+        font-size: 14px;
+       
+        width: 100%;
+    }
+    .tr{
+        width: 100%;
+        display: flex;
+       gap: 22%;
+     
+    }
+    .td{
+      margin-right: 3rem !important;
+    }
+    .tds{
+        margin-left: -7rem !important;
+    }
+    .ths{
+        display: none !important;
+    } */

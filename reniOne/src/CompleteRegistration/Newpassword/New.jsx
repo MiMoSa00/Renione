@@ -19,16 +19,18 @@ const New = () => {
       setShowPassword(!showPassword);
     };
 
+
+
     return (
-        <div className='mainContainer'>
-            <div className="imgContainer">
-                <img src={backgroundImg} className='imgDiv' />
+        <div className='newContainer'>
+            <div className="newImgcontain">
+                <img src={backgroundImg} className='newimgDiv' />
             </div>
 
-            <div className="verifySection">
+            <div className="newformSection">
                 <div className="formSect">
-                    <div className="header">
-                        <div className="logoDiv">
+                    <div className="newheader">
+                        <div className="resetlogoDiv">
                             <img src={logo} className='Logo' />
                             <p className='graph'>RENI.One</p>
                         </div>
@@ -36,9 +38,9 @@ const New = () => {
 
                     </div>
 
-                    <div className="formSection">
+                    <div className="newerformSection">
                         <form>
-                            <div className="formDiv">
+                            <div className="formerDiv">
                             
                                 <div className='apt-box'>
                                     <label>

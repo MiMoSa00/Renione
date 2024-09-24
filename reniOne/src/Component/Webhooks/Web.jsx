@@ -139,11 +139,11 @@ const Web = () => {
               <BsThreeDots onClick={toggleDropdown1} className='api-icon' />
               {dropdownVisible1 && (
                 <ul className='api-menu'>
-                  <li style={{cursor:"pointer"}} className='api-item' onClick={() => {
+                  <li style={{ cursor: "pointer" }} className='api-item' onClick={() => {
                     setOpenModal(true)
                   }}>Edit webhook</li>
-                  {openModal && <WebModal closeModal={setOpenModal}/> }
-                  <li   style={{cursor:"pointer"}}  className='api-item'>Block webhook</li>
+                  {openModal && <WebModal closeModal={setOpenModal} />}
+                  <li style={{ cursor: "pointer" }} className='api-item'>Block webhook</li>
                 </ul>
               )}
             </div>
@@ -158,7 +158,7 @@ const Web = () => {
 
             <div className="mineText">
               <p className="texts">URL</p>
-              <p className="anotherText">fireswitchlogy.com</p>
+              <p className="anotherText">Fireswitchtechnologies.com</p>
 
             </div>
             <div className="mintText">
@@ -181,37 +181,37 @@ const Web = () => {
             <div className="lastText">
               <table width="100%">
                 <thead>
-                  <tr>
+                  <tr className='web-table'>
                     <th style={{ textAlign: "left", width: "30%", color: "#757E9F", fontSize: "16px", fontWeight: "400" }}>Name</th>
-                    <th style={{ textAlign: "center", width: "10%", color: "#757E9F", fontSize: "16px", fontWeight: "400" }}>Status</th>
-                    <th style={{ textAlign: "left", color: "#757E9F", fontSize: "16px", width: "20%", fontWeight: "400" }}>Created Date</th>
-                    <th style={{ textAlign: "left", width: "20%", marginLeft: "10px", color: "#757E9F", fontSize: "16px", fontWeight: "400" }}>Last Called</th>
+                    <th className='web-status' style={{ textAlign: "center", width: "10%", color: "#757E9F", fontSize: "16px", fontWeight: "400" }}>Status</th>
+                    <th className='web-thead' style={{ textAlign: "left", color: "#757E9F", fontSize: "16px", width: "20%", fontWeight: "400" }}>Created Date</th>
+                    <th className='time' style={{ textAlign: "left", width: "20%", marginLeft: "10px", color: "#757E9F", fontSize: "16px", fontWeight: "400" }}>Last Called</th>
                     <th style={{ textAlign: "right", width: "9%", color: "#757E9F", fontSize: "16px", fontWeight: "400" }}>Show more</th>
                   </tr>
                 </thead>
                 <tbody>
                   {apiData.map((item, index) => (
                     <React.Fragment key={index}>
-                      <tr>
+                      <tr className='webster'>
                         <td>{item.apiName}</td>
                         {/* <td>{item.Token}</td> */}
                         <td >
-                          <div style={{
+                          <div className='Statuses' style={{
                             color: "white",
                             width: "79%", backgroundColor: "#12B76A", textAlign: "center", borderRadius: "999px", marginLeft: "2px", marginTop: "8px"
                           }}>
                             {item.status}
                           </div>
                         </td>
-                        <td >{item.Time}</td>
-                        <td>{item.Date}</td>
-                        <td onClick={() => toggleDropdown3(index)} >
-                          {dropdownVisible3[index] ? <IoIosArrowUp style={{ marginLeft: "3rem", color: "#757E9F", fontSize: "24px" }} /> : <IoIosArrowDown style={{ marginLeft: "6rem", color: "#757E9F", fontSize: "24px" }} />}
+                        <td className='time'>{item.Time}</td>
+                        <td className='date'>{item.Date}</td>
+                        <td className='arrows' onClick={() => toggleDropdown3(index)} >
+                          {dropdownVisible3[index] ? <IoIosArrowUp style={{ marginLeft: "6rem", color: "#757E9F", fontSize: "24px" }} /> : <IoIosArrowDown style={{ marginLeft: "6rem", color: "#757E9F", fontSize: "24px" }} />}
                         </td>
                       </tr>
                       {dropdownVisible3[index] && (
                         <tr className='ip-container' >
-                          <td colSpan="1">
+                          <td className='tds' colSpan="5">
                             <p className='ip' style={{ marginTop: "-.2rem", color: "#757E9F" }}>IP Address: <span style={{ color: "black", fontWeight: "500", fontSize: "16px" }}>{item.description[0].ip}</span></p>
                             <p className='ip' style={{ marginLeft: "16rem", marginTop: "-2.3rem", color: "#757E9F" }}>Duration: <span style={{ color: "black", fontWeight: "500", fontSize: "16px" }}>{item.description[0].Duration}</span></p>
                             <p className='ip' style={{ marginLeft: "29rem", marginTop: "-2rem", color: "#757E9F" }}>Status Code: <span style={{ color: "black", fontWeight: "500", fontSize: "16px" }}>{item.description[0].statusCode}</span></p>

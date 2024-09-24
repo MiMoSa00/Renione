@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 
 import './Sign.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -126,7 +127,10 @@ const SignUp = () => {
             </div>
 
             <div className="buttonContainer">
+              <Link to="/dash">
               <button>Create account</button>
+              </Link>
+            
             </div>
           </form>
         </div>

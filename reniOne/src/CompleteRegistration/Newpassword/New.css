@@ -1,7 +1,101 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --PrimaryColor: hsl(209, 68%, 55%);
+    --SecondaryColor: hsl(180, 17%, 95%);
+    --colorOne: hsl(15, 74%, 70%);
+    --colorTwo: hsl(28, 100%, 82%);
+    --HoverColor: hsl(225, 56%, 59%);
+    --whiteColor: #FEFCFC;
+    --blackColor: hsl(0, 0%, 12%);
+    --textColor: rgb(3, 3, 109);
+    --borderColor: hsl(0, 0%, 83%);
+    --whiteColorDeam: hsl(0, 8%, 88%);
+    --greyBg: hsl(0, 0%, 96%);
+    --greyText: rgb(145, 145, 145);
+    --inputColor: hsl(330, 12%, 97%);
+    --newBgColor: hsl(188, 43%, 87%);
+    --boxShadow: box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    --transition: .4s ease-in-out;
+}
+
+/* // Default Styling */
+body {
+    background: var(--whiteColor);
+    box-sizing: border-box;
+    box-shadow: var(--boxShadow);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+
+}
+
+/* verify style */
+
+.newContainer {
+    height: 100%;
+    display: flex;
+    position: fixed;
+}
+
+.newImgcontain {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.newimgDiv {
+    width: 100%;
+    height: max-content;
+    object-fit: cover;
+
+
+}
+
+
+
+.newformSection {
+    width: 100%;
+    padding: 2rem;
+    background: #F1F6FD;
+}
+
+
+.resetlogoDiv {
+    display: flex;
+    color: #001E88;
+    align-items: center;
+    justify-content: center;
+    margin-top: -.5rem;
+    margin-bottom: .9rem;
+}
+
+
+
+.headingSection {
+    color: #001E88;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: -7rem;
+}
+
+.graph {
+    color: #001E88;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.formSection {
+    margin-top: 8rem;
 }
 
 .headerSection{
@@ -9,28 +103,63 @@ body {
     text-align: center;
     margin-top: 8rem;
 }
+
+.newerformSection {
+    content: '';
+    padding: 1rem;
+    background: linear-gradient(to bottom, #001E88, #FEFCFC);
+    margin-top: 1rem;
+    border-radius: 8px;
+    z-index: -1;
+}
+
+/* .email {
+    font-size: 20px;
+    color: #848995;
+    font-weight: 400;
+    margin-bottom: 1rem;
+} */
+
+
+
 .apt-box{
     display: flex;
     flex-direction: column;
     width: 100%;
    gap: 7px;
 }
+
+.apt-box label{
+    color: #111822;
+    margin-top: 2rem;
+}
+/* .formContainer label {
+    font-size: 20px;
+    color: #848995;
+} */
+
+ .apt-box input[type="password"] {
+    width: 97%;
+    height: 8vh;
+    margin: 10px 0px;
+    border: 2px solid #848995;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .eyesIcon{
     width: 20px;
     margin-left: 30rem;
     background: none;
     font-size: 18px;
-    margin-top: -2.8rem;
+    margin-top: -3.5rem;
     color: #6a6d75;
     border: none;
 }
-.apt-box label{
-    color: #111822;
-    margin-top: 2rem;
-}
 
 .reset{
-    width: 500px;
+    width: 90%;
     padding: .6rem;
     margin-top: 2.5rem;
     margin-left: 1rem;
@@ -42,3 +171,173 @@ body {
     border: none;
     outline: 1px solid #001E88;
 }
+
+
+
+
+
+
+@media (max-width: 900px) {
+ 
+    .newContainer {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: scroll; 
+        position: absolute;
+    }
+
+    .newImgcontain {
+        display: none;
+    }
+
+    .newformSection{
+      width: 150%;
+      margin-left: 2rem;
+    }
+    .newformSection {
+        width: 100%;
+        overflow-y: scroll; 
+    }
+
+    .reset{
+      width: 100%;
+      margin-left: .1rem;
+    }
+
+    .apt-box label{
+      font-size: 14px;
+      margin-left: .4rem;
+    }
+  
+   
+  
+    .resetlogoDiv {
+      text-align: center;
+      margin-left: 2rem;
+    }
+  
+
+  
+  
+    .headerSection {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-left: 2rem;
+      
+    }
+  }
+  
+  /* Styles for screens 600px and smaller */
+  @media (max-width: 600px) {
+    .headerSection {
+      font-size: 1.3rem;
+     text-align: center;
+     margin-left: -2rem;
+    }
+
+    .resetlogoDiv{
+      margin-left: -2rem;
+    }
+    .newerformSection {
+      width: 125%;
+      margin-left: -3rem;
+      overflow-x: hidden;
+    }
+
+   .eyesIcon{
+    margin-left: 13rem;
+    margin-right: -1.8rem;
+   
+   }
+
+   .apt-box input[type="password"]{
+    width: 93%;
+   }
+  
+    form{
+      margin-right: .7rem;
+      width: 100%;
+    
+  }
+}
+  
+  /* Styles for screens 500px and smaller */
+  @media (max-width: 500px) {
+    .headerSection {
+      font-size: 1.2rem;
+     margin-left: -2rem;
+    }
+
+    .resetlogoDiv{
+      margin-right: .9rem;
+    }
+    .newerformSection{
+     margin-left: -3rem;
+    }
+   
+    .reset{
+      width: 100%;
+    }
+  }
+  
+  /* Styles for screens 330px and smaller */
+  @media (max-width: 480px) {
+ 
+      .headerSection {
+        font-size: 1.2rem;
+       margin-left: -1rem;
+      }
+
+      .newerformSection{
+        width: 110%;
+        margin-left: -1.9rem;
+        overflow-x: hidden;
+      }
+  
+      .eyesIcon{
+       margin-left: 12rem;
+      }
+      .apt-box input[type="password"]{
+        width: 95%;
+      }
+      .resetlogoDiv{
+        margin-left: -1rem;
+        margin-bottom: -3.5rem;
+      }
+     
+      .reset{
+        width: 95%;
+        margin-top: 4rem;
+      }
+    }
+  
+  @media (max-width: 330px) {
+    .headerSection {
+      font-size: 1rem;
+     margin-left: -3rem;
+    }
+
+    .newerformSection{
+      width: 115%;
+      margin-left: -3rem;
+      overflow-x: hidden;
+    }
+
+    .eyesIcon{
+     margin-left: 8rem;
+    }
+    .apt-box input[type="password"]{
+      width: 95%;
+    }
+    .resetlogoDiv{
+      margin-left: -2.5rem;
+      margin-bottom: -3.5rem;
+    }
+   
+    .reset{
+      width: 95%;
+      margin-top: 4rem;
+    }
+  }

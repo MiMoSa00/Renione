@@ -44,6 +44,7 @@ body {
     height: 100%;
     display: flex;
     position: fixed;
+    overflow: hidden;
 }
 
 .imgContainer {
@@ -75,17 +76,17 @@ body {
     color: #001E88;
     align-items: center;
     justify-content: center;
-    margin-top: -3rem;
+    margin-top: -1rem;
     margin-bottom: .9rem;
 }
 
 
 
-.headingSection {
+.headingsection {
     color: #001E88;
     text-align: center;
-    margin-bottom: 3rem;
-    margin-top: -7rem;
+    margin-bottom: -10rem;
+    /* margin-top: 7rem; */
 }
 
 .graph {
@@ -194,7 +195,7 @@ input[type="otp"] {
 
 .btns {
     width: 100%;
-    height: 175%;
+    height: 110%;
     background: transparent;
     color: #001E88;
     font-size: 16px;
@@ -218,226 +219,233 @@ span {
 
 
 
-
-@media (max-width: 480px) {
- .mainContainer{
-    width: 100%;
-
- }
+@media (max-width: 900px) {
  
+    .mainContainer {
+        flex-direction: column;
+        padding: 10px;
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: scroll; 
+        position: absolute;
+    }
 
-    /* verification section */
     .imgContainer {
         display: none;
     }
 
+    .formSection{
+      width: 90%;
+      margin-left: 2rem;
+      overflow-x: hidden;
+    }
     .verifySection {
         width: 100%;
-        padding: 1rem;
-        left: .1rem;
-        justify-content: center;
+        overflow-y: scroll; 
     }
 
+    .newbtn{
+      width: 45%;
+    }
+
+    .formContainer label{
+      font-size: 14px;
+      margin-left: .4rem;
+    }
+  
+    .email{
+      font-size: 14px;
+    }
+  .btns{
+    font-size: 14px;
+  }
+
+  .para{
+    font-size: 14px;
+  }
+    .otpArea input {
+      width: 7%;
+/* gap: 50px; */
+    }
+
+    .otpArea{
+      width: 97%;
+      /* margin-left: 3rem; */
+    }
+    .formSect {
+      /* max-width: 100%; */
+      padding: 0 20px;
+    }
+  
     .logoDiv {
-        margin-left: 1rem;
-        border: 2px;
-
+      text-align: center;
+      margin-left: -2rem;
+    }
+  
+    .graph {
+      font-size: 1.2rem;
+     
+    }
+  
+    .headingsection {
+      font-size: 1.5rem;
+      text-align: center;
+      margin-left: -2rem;
+      /* margin-top: 5rem; */
+      
+    }
+  }
+  
+  /* Styles for screens 600px and smaller */
+  @media (max-width: 600px) {
+    .headingsection {
+      font-size: 1.3rem;
+     text-align: center;
+     margin-left: -6rem;
+    /* margin-top: 4rem; */
     }
 
-    .logo {
-        margin-top: 17px;
+    .logoDiv{
+      margin-left: -5rem;
+    }
+    .verifySection {
+      width: 120%;
+      overflow-x: hidden;
     }
 
-
-    .headingSection {
-        margin-top: -7rem;
-    }
-
-    .formSection {
-        margin-bottom: 3px;
-        margin-top: 4rem;
-    }
-
-    input[type="email"] {
-        width: 70%;
-        margin-left: -3%;
-        display: block;
-    }
-
-    .email {
-        width: 310px;
-        /* line-height: 25px; */
-    }
-
-    .form {
-        line-height: 42px;
-    }
-
-    input[type="text"] {
-        width: 334px;
-        height: 48px;
-    }
-
-    .newbtn {
-        width: 50%;
-        margin-top: 4%;
-        height: 49px;
-        font-size: 18px;
-        font-weight: 500;
-    }
-
-    input[type="otp"] {
-        font-size: 20px;
-        font-weight: 600;
-        width: 42.5px;
-        height: 45px;
-
-        outline: 2px solid lightgrey;
-        text-align: center;
-    }
-
-    .otpArea {
-        width: 25%;
-        display: flex;
-        gap: 14px;
-        margin-left: -6px;
-    }
-.boxs{
-    margin-top: 2%;
-}
-    .btns {
-        width: 70%;
-        font-size: 16px;
-
-        height: 49px;
-        margin-top: 1rem;
-        /* margin-left: -6rem; */
-    }
-
-    .para {
-        width: 70%;
-        color: var(--greyText);
-      font-size: 18px;
-        font-weight: 400;
-        text-align: left;
-        margin-left: 1rem;
-
-
-    }
-
-    /* Sign up section */
-
-
-    .SignUpSection {
-        width: 490px;
-        padding: 1rem;
-        margin-left: -13.5rem;
-        justify-content: center;
-
+    .email{
+      font-size: 13px;
     }
 
 
-    .formDiv {
-        width: 430px;
-        margin-left: 1.2rem;
-
+  
+    .newbtn{
+      width: 50%;
+      font-size: 12px;
     }
-/* 
-    .logoDiv {
-        margin-left: -8.2rem;
+    .formSection{
+      width: 75%;
+      border-radius: .8rem;
+      margin-left: 1rem;
+    }
+    .otpArea{
+      width: 100%;
+    }
 
+    .otp input[type="otp"]{
+      /* width: 14%; */
+      gap: 10px;
+    }
+  
+    form{
+      margin-right: .7rem;
+      width: 100%;
+    }
+    /* .formSect {
+      padding: 0 10px;
     } */
-
-    .logo {
-        margin-top: 4rem;
+  
+    .graph {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Styles for screens 500px and smaller */
+  @media (max-width: 500px) {
+    .headingsection {
+      font-size: 1.2rem;
+     margin-left: -2.5rem;
+    }
+  
+    .graph {
+      font-size: 0.9rem;
     }
 
+    .logoDiv{
+      /* margin-right: 9rem; */
+      margin-left: -3.5rem;
+    }
+    .formSection{
+      width: 80%;
+      border-radius: .8rem;
+      margin-left: 3%;
+    }
+  
+   
 
-    .headingSection {
-        margin-top: -7rem;
+    .newbtn{
+      width: 70%;
     }
 
-    .headerText {
-        margin-top: 4.6rem;
-        margin-bottom: 2rem;
-        font-size: 24px;
+    .email{
+      font-size: 15px;
+    }
+  }
+  
+  /* Styles for screens 330px and smaller */
+  @media (max-width: 330px) {
+    .headingsection {
+      font-size: 1rem;
+     /* margin-top: 2rem; */
+     margin-left: -2rem;
+    }
+  
+    .graph {
+      font-size: 0.8rem;
+    }
+    
+    .logoDiv{
+      margin-left: 1rem;
+    }
+    .boxs{
+      font-size: 14px;
     }
 
-    input[type="text"] {
-        width: 334px;
-        height: 48px;
-
+    .email{
+      font-size: 12px;
+    }
+    .para p{
+      font-size: 12px;
+      margin-top: -2rem;
     }
 
-    input[type="username"] {
-        width: 334px;
-        height: 48px;
-
+    .buts{
+      margin-top: -.9rem;
+    }
+    .btns{
+      width: 90%;
+      padding: 0;
+      font-size: 11px;
+      
+    }
+    .formSection{
+      width: 92%;
+      margin-left: -1.5rem;
+      /* margin-top: -1rem; */
+    }
+    .newbtn{
+     font-size: 12px;
     }
 
-    input[type="password"] {
-        width: 334px;
-        height: 48px;
+    .para p{
+      margin-top: -4rem;
     }
-
-    .eyeIcon {
-        margin-left: -16rem;
+    .otpArea{
+      width: 105%;
+      height: 109%;
     }
-
-    .form {
-        line-height: 50px;
+   .otpArea  input{
+      width: 6%;
+      margin-left: -.8rem;
+      height: 39%;
+      padding: 24px;
+      gap: 30px;
     }
-
-    .users {
-        margin-top: -3.5rem;
-        margin-left: -6rem;
+  
+    .formSect {
+      padding: 0 5px;
+    }  
+    .formDiv, .otpArea, .buts, .para {
+      margin-bottom: 10px;
     }
-
-    option {
-        width: 500px;
-    }
-
-    .agreementDiv {
-        margin-top: 17rem;
-        width: 550px;
-        margin-left: -.7rem;
-        justify-content: space-around;
-        font-size: 20px;
-    }
-
-    .agreementDiv label {
-        width: 320px;
-        margin-left: -2px;
-        font-size: 15px;
-        font-weight: 500;
-        margin-top: -22rem;
-    }
-
-    .formContainer label {
-        font-size: 20px;
-        margin-left: -3%;
-    }
-    /* .formContainer {
-        padding-bottom: 6rem;
-    } */
-
-    input[type="checkbox"] {
-        width: 10px;
-        height: 10px;
-        margin-top: -18rem;
-    }
-
-    .btnFlex{
-        height: 40px;
-        width: 334px;
-        margin-left: -7rem;
-        font-size: 16px;
-        font-weight: 500;
-        margin-top: .6rem;
-    }
-
-    .login {
-        margin-top: -14rem;
-        font-size: 14px;
-    }
-}
+  }
