@@ -178,7 +178,7 @@ body {
     }
  
     .webSection{
-        width: 100%;
+        width: 88%;
         margin-left: -1rem;
     }
     .webSection .minText{
@@ -210,7 +210,7 @@ body {
 
 
     .web-Last{
-        width: 100%;
+        width: 87%;
         margin-left: -1rem;
     }
     .web-Last .web-table th{
@@ -226,44 +226,47 @@ body {
         /* margin-left: -1rem; */
         width: 10% !important;
         position: relative !important;
-        left: 12%;
+        left: 6%;
     }
     .web-table th:nth-child(5){
         width: 3% !important;
-        right: 1%;
+        right: 12%;
         position: relative;
     }
     .webster td:nth-child(1){
       white-space: nowrap;
       font-size: 13px;
-      
+      right: 3%;
+      /* margin-left: -.9rem; */
       /* top: 3%; */
       position: relative;
     margin-top: .8rem;
     }
    .webster td:nth-child(2){
     font-size: 11px;
-    width: 19% !important;
+    /* right: 6%; */
+    width: 30% !important;
    }
    .Statuses{
+    width: 90% !important;
     margin-top: .1rem !important;
-    margin-left: 1.5rem !important;
+    margin-left: .8rem !important;
    }
     .date{
         margin-top: -1rem;
         white-space: nowrap;
         font-size: 12px;
         width: 10%;
-        left: 13%;
+        left: 6%;
     }
     .arrows{
         position: relative;
-        right: 2%;
+        right: 13%;
 
     }
    .lastText  .tds {
-    width: 90% !important;
-    right: 6%;
+    width: 81% !important;
+    right: 19%;
     height: 3%;
     /* position: relative; */
 }
@@ -288,7 +291,7 @@ body {
     font-size: 11px !important;
    }
    .webContainer .mid-Container{
-    width: 100%; 
+    width: 87%; 
     margin-left: -1rem;
    }
 

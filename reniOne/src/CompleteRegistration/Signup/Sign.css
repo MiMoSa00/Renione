@@ -420,12 +420,21 @@ input[type="password"] {
 }
 
 @media (max-width: 480px) {
+    .signupSection{
+        width: 100%;
+        overflow-x: hidden;
+    }
     .header .head {
         font-size: 16px;
+        margin-top: .5rem;
     }
 
     .reniLogo img {
         max-width: 60px;
+    }
+    .reniLogo{
+        margin-top: 1rem;
+        margin-bottom: -.7rem;
     }
 
     .reniLogo .graph {
@@ -447,12 +456,28 @@ input[type="password"] {
         gap: 5px;
     }
 
+    .inp-box input[type="text"]{
+    width: 100%;
+    }
+    .inp-box select{
+        width: 100%;
+    }
+    .inp-box input[type="password"]{
+        width: 100%;
+    }
+    .inp-box .eyeIcon{
+        margin-right: 7rem;
+    }
     input[type="checkbox"] {
         width: 6%;
         height: 60%;
 
     }
 
+    .checkDiv{
+        width: 45%;
+        margin-left: -1rem;
+    }
     .inputes {
         margin-top: -.1rem;
     }
@@ -469,7 +494,8 @@ input[type="password"] {
     }
 
     .flex {
-        height: 146vh;
+        margin-top: 1.2rem;
+        height: 90%;
     }
 
 

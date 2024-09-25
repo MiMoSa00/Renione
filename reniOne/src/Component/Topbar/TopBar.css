@@ -180,21 +180,25 @@ body {
 @media screen and (max-width: 480px) {
     .topbarSection{
         position: fixed;
-        width: 108%;
+        width: 100%;
         /* padding: 10px, 16px, 10px, 16px; */
         top: .1%;
-        height: 12vh;
+        height: 9vh;
         z-index: 99;
        
     }
     .circle{
-        margin-right: -4rem;
+        margin-right: -3rem;
         width: 100%;
         /* position: relative; */
         /* border: 2px solid black; */
     }
    .top3{
     white-space: nowrap;
+    font-size: 16px;
+   }
+   .topIcon{
+    margin-left: -.5rem;
    }
 }
 

@@ -91,3 +91,20 @@ body{
       margin-left: 4rem;
     }
   }
+  @media screen and (max-width: 480px) {
+    .changeSection{
+      width: 100%;
+      /* overflow-x: hidden; */
+    }
+    .changeContainer{
+      width: 24rem;
+      margin-top: -15rem;
+      margin-left: 6rem;
+    }
+    .changeForm input{
+      width: 100%;
+    }
+    .changeForm label{
+      white-space: nowrap;
+    }
+  }

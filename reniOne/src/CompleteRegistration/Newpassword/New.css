@@ -148,9 +148,9 @@ body {
     border-radius: 10px;
 }
 
-.eyesIcon{
+ .newerformSection .eyesIcon{
     width: 20px;
-    margin-left: 30rem;
+    margin-left: 24rem;
     background: none;
     font-size: 18px;
     margin-top: -3.5rem;
@@ -284,6 +284,9 @@ body {
   
   /* Styles for screens 330px and smaller */
   @media (max-width: 480px) {
+    .newContainer{
+      width: 100%;
+    }
  
       .headerSection {
         font-size: 1.2rem;
@@ -291,16 +294,16 @@ body {
       }
 
       .newerformSection{
-        width: 110%;
+        width: 100%;
         margin-left: -1.9rem;
         overflow-x: hidden;
       }
   
-      .eyesIcon{
-       margin-left: 12rem;
+    .newerformSection  .eyesIcon{
+       margin-left: 10rem;
       }
       .apt-box input[type="password"]{
-        width: 95%;
+        width: 100%;
       }
       .resetlogoDiv{
         margin-left: -1rem;

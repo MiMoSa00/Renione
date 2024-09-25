@@ -918,15 +918,17 @@ input[type="api-input"] {
     .apiSection {
         width: 96%;
         margin-left: -.5rem;
+        height: 50%;
     }
 
     .apiText {
         margin-left: .5rem;
-        width: 95%;
+        width: 96%;
+        height: 12%;
     }
 
     .apiWarning {
-        width: 90%;
+        width: 95%;
         margin-left: 1.5rem;
         display: flex;
         align-items: center;
@@ -944,10 +946,12 @@ input[type="api-input"] {
 
     .newapis {
         margin-left: -1.2rem;
+        margin-top: -21rem;
     }
 
     .newapis .dashText {
         font-size: 13px;
+        margin-top: .4rem;
 
     }
 
@@ -959,7 +963,7 @@ input[type="api-input"] {
 
     .new-Type {
         margin-left: -3.7rem;
-        margin-top: -2.1rem;
+        margin-top: -22rem;
     }
 
     .apiSection .oldKeys {
@@ -974,6 +978,7 @@ input[type="api-input"] {
 
     .new-Key {
         margin-left: -5.4rem;
+        margin-top: -23rem;
     }
 
     .apiSection .new-Key .anotherText {
@@ -990,6 +995,7 @@ input[type="api-input"] {
 
     .new-Create {
         margin-left: -.9rem;
+        margin-top: -24rem;
     }
 
     .new-Create .fourthText {
@@ -1004,15 +1010,18 @@ input[type="api-input"] {
 
     .new-Views {
         margin-left: -.4rem;
+        margin-top: -25.5rem;
     }
 
     .midContainer {
         width: 96%;
         margin-left: -.5rem;
+        height: 50%;
     }
 
     .lastContainer {
         width: 96%;
+        height: 25%;
         margin-left: -.5rem;
     }
 
@@ -1025,7 +1034,7 @@ input[type="api-input"] {
 
     .tide {
         width: 4rem !important;
-        margin-left: -3.5rem !important;
+        margin-left: -5rem !important;
         margin-top: .2rem !important;
         font-size: 13px !important;
     }
@@ -1037,7 +1046,7 @@ input[type="api-input"] {
    
 
     .td {
-        margin-left: -1rem !important;
+        margin-left: -3rem !important;
     }
 
     .ip-container {

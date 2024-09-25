@@ -776,34 +776,43 @@ margin-left: -24rem;
 
 @media screen and (max-width: 480px) {
     .main-profile{
-        width: 100%;
+        width: 90%;
+        /* overflow-x: hidden; */
     }
 
     .profileSection{
-        width: 90%;
-        margin-left: -.5rem;
+        width: 100%;
+        margin-top: 7rem;
+        /* overflow-x: hidden; */
+        margin-left: -1.5rem;
     }
     .profileContain2{
         margin-left: .5rem;
     }
     .newlypaid{
         margin-left: -10.6rem;
+        /* white-space: wrap; */
+    }
+    .profile-s{
+        font-size: 14px;
     }
    .main-profile .another-section{
-        width: 90%;
-        margin-left: -.5rem;
+        width: 100%;
+        margin-left: -1.5rem;
+        /* overflow-x: hidden; */
     }
     .another-container .another input{
      margin-left: .5rem;
-     padding-right: 7rem;
+     padding-right: 5rem;
     }
     .another-container .another-cont input{
-        padding-right: 7rem;
+        padding-right: 5rem;
         margin-left: 3rem;
     }
    .main-profile .thirdSection{
-        width: 90%;
-        margin-left: -.5rem;
+        width: 100%;
+        /* overflow-x: hidden; */
+        margin-left: -1.5rem;
     }
 
     .thirdSection .another-cont input{
@@ -823,9 +832,9 @@ margin-left: .5rem;
         border-radius: 100%;
         /* font-size: 34px; */
     }
-    .option{
-        margin-left: -2rem;
-    }
+    /* .option{
+        margin-left: -3rem;
+    } */
     .newpros{
         border: 2px solid #757E9F;
         width: 12%;
@@ -834,8 +843,8 @@ margin-left: .5rem;
     }
 
     .KYC{
-        width: 90%;
-        margin-left: -.5rem;
+        width: 100%;
+        margin-left: -1.5rem;
     }
     .kyc{
         width: 100%;
@@ -846,13 +855,13 @@ margin-left: .5rem;
         /* border: 2px solid red; */
     }
    .kyc select {
-        width: 70%;
-        padding: 1rem;
+        width: 100%;
+        padding: .5rem;
         /* border: 3px solid pink; */
     }
     .refresh{
-        margin-left: -17rem;
-        margin-right: 2rem;
+        margin-left: -8rem;
+        margin-right: 1rem;
     }
     .kyc-cont input{
     width: 100%;
@@ -863,16 +872,16 @@ margin-left: .5rem;
     }
     .kyc-contain input{
         width: 63%;
-        margin-right: 2.5rem;
+        margin-right: 1.9rem;
         margin-left: -2rem;
     }
     .kyb-section{
-        width: 90%;
-        margin-left: -.5rem;
+        width: 100%;
+        margin-left: -1.5rem;
     }
     .kyb_input{
-        width: 15rem;
-        margin-left: -1rem;
+        width: 11.6rem;
+        margin-left: -1.7rem;
     }
     .kyb_input::placeholder{
 font-size: 13px;
@@ -882,8 +891,8 @@ font-size: 13px;
         /* border: 2px solid black; */
     }
     .kyb-input{
-      width: 13rem;
-      margin-left: -6rem;
+      width: 11.6rem;
+      margin-left: -6.4rem;
     }
     .kyb-input::placeholder{
         font-size: 13px;
@@ -902,7 +911,7 @@ font-size: 13px;
             /* font-size: 34px; */
         }
         .option{
-            margin-left: -2rem;
+            margin-left: -3rem;
         }
         .newpros{
             border: 2px solid #757E9F;
@@ -913,20 +922,20 @@ font-size: 13px;
 
  
     .P-kyc{
-        margin-left: 1.9rem;
+        margin-left: .5rem;
     }
     .kyb-Input{
-        width: 13rem;
+        width: 11rem;
         margin-left: -5rem;
     }
     .kyb-upload-text{
-        margin-left: 3.9rem;
+        margin-left: 2.5rem;
     }
     .kybStatus{
         width: 90%;
     }
     .kyB{
-        margin-left: 3rem;
+        margin-left: 5rem;
     }
 
     .warn-icon{
@@ -934,21 +943,24 @@ font-size: 13px;
     }
     .warn{
         font-size: 13px;
+        margin-left: .1rem;
     }
     .btn-kyc{
         width: 13%;
         height: 5%;
         font-size: 13px;
-        margin-right: -3rem;
+        /* margin-left: -rem; */
+        margin-right: 1.5rem;
         padding-right: 3.3rem;
         padding-left: .9rem;
     }
     .danger{
-        width: 90%;
-        margin-left: -.5rem;
+        width: 100%;
+        margin-left: -1.5rem;
     }
     .p-danger{
-        width: 90%;
+        width: 100%;
+        font-size: 13px;
     }
 
     .danger-btn{

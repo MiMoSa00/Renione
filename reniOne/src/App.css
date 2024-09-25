@@ -383,11 +383,10 @@ span {
   }
   
   /* Styles for screens 330px and smaller */
-  @media (max-width: 330px) {
+  @media (max-width: 480px) {
     .headingsection {
       font-size: 1rem;
-     /* margin-top: 2rem; */
-     margin-left: -2rem;
+    text-align: center;
     }
   
     .graph {
@@ -395,7 +394,7 @@ span {
     }
     
     .logoDiv{
-      margin-left: 1rem;
+      margin-left: -1.5rem;
     }
     .boxs{
       font-size: 14px;
@@ -434,18 +433,26 @@ span {
       width: 105%;
       height: 109%;
     }
-   .otpArea  input{
-      width: 6%;
+     input[type= "otp"]{
+      width: 10% !important;
       margin-left: -.8rem;
-      height: 39%;
-      padding: 24px;
-      gap: 30px;
+      height: 39% !important;
+      padding: 19px !important;
+      gap: 10px !important;
     }
   
     .formSect {
       padding: 0 5px;
     }  
-    .formDiv, .otpArea, .buts, .para {
+
+    .buts{
+      margin-top: 1rem !important;
+    }
+    .para p{
+      margin-top: -5rem;
+      margin-bottom: 3rem !important;
+    }
+    .formDiv, .otpArea {
       margin-bottom: 10px;
     }
   }

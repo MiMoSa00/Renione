@@ -56,8 +56,8 @@ const Login = () => {
               </Link>
             </div>
 
-            <div className="para">
-              <p >Already have an account?
+            <div className="lastForm">
+              <p >Don't have an account?
                 <Link to="/">
                   <span>Signup</span>
                 </Link>
