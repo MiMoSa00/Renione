@@ -178,8 +178,8 @@ body {
     }
  
     .webSection{
-        width: 88%;
-        margin-left: -1rem;
+        width: 90%;
+        margin-left: -1.9rem;
     }
     .webSection .minText{
         margin-left: -1.5rem;
@@ -210,8 +210,8 @@ body {
 
 
     .web-Last{
-        width: 87%;
-        margin-left: -1rem;
+        width: 90%;
+        margin-left: -1.9rem;
     }
     .web-Last .web-table th{
         font-size: 13px !important;
@@ -291,8 +291,8 @@ body {
     font-size: 11px !important;
    }
    .webContainer .mid-Container{
-    width: 87%; 
-    margin-left: -1rem;
+    width: 90%; 
+    margin-left: -1.9rem;
    }
 
 }

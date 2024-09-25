@@ -193,12 +193,15 @@ body {
         /* position: relative; */
         /* border: 2px solid black; */
     }
+    .top-menu{
+        margin-left: -16rem !important;
+    }
    .top3{
     white-space: nowrap;
     font-size: 16px;
    }
    .topIcon{
-    margin-left: -.5rem;
+    margin-left: -1.5rem;
    }
 }
 
@@ -213,6 +216,7 @@ body {
         
        
     }
+
     .top3{
         font-size: 14px;
     }

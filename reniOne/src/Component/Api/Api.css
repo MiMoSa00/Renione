@@ -918,17 +918,17 @@ input[type="api-input"] {
     .apiSection {
         width: 96%;
         margin-left: -.5rem;
-        height: 50%;
+        height: 59%;
     }
 
     .apiText {
         margin-left: .5rem;
-        width: 96%;
-        height: 12%;
+        width: 99%;
+        height: 15%;
     }
 
     .apiWarning {
-        width: 95%;
+        width: 92%;
         margin-left: 1.5rem;
         display: flex;
         align-items: center;
@@ -946,7 +946,7 @@ input[type="api-input"] {
 
     .newapis {
         margin-left: -1.2rem;
-        margin-top: -21rem;
+        margin-top: -18rem;
     }
 
     .newapis .dashText {
@@ -963,7 +963,7 @@ input[type="api-input"] {
 
     .new-Type {
         margin-left: -3.7rem;
-        margin-top: -22rem;
+        margin-top: -18.9rem;
     }
 
     .apiSection .oldKeys {
@@ -978,7 +978,7 @@ input[type="api-input"] {
 
     .new-Key {
         margin-left: -5.4rem;
-        margin-top: -23rem;
+        margin-top: -20rem;
     }
 
     .apiSection .new-Key .anotherText {
@@ -995,7 +995,7 @@ input[type="api-input"] {
 
     .new-Create {
         margin-left: -.9rem;
-        margin-top: -24rem;
+        margin-top: -21rem;
     }
 
     .new-Create .fourthText {
@@ -1010,17 +1010,17 @@ input[type="api-input"] {
 
     .new-Views {
         margin-left: -.4rem;
-        margin-top: -25.5rem;
+        margin-top: -22.5rem;
     }
 
     .midContainer {
         width: 96%;
         margin-left: -.5rem;
-        height: 50%;
+        height: 55%;
     }
 
     .lastContainer {
-        width: 96%;
+        width: 98%;
         height: 25%;
         margin-left: -.5rem;
     }
@@ -1050,14 +1050,16 @@ input[type="api-input"] {
     }
 
     .ip-container {
-        width: 110% !important;
+        width: 30rem !important;
     }
 
     .ip-container td {
         display: flex !important;
         flex-wrap: wrap !important;
         justify-content: space-between !important;
-        padding: .5rem !important;
+        /* padding: .5rem !important; */
+        padding-right: 1.5rem !important;
+        padding-left: .5rem !important;
         font-size: 11px;
     }
 
